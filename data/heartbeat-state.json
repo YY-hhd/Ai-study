@@ -1,12 +1,12 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null,
-    "notifications": null
+    "email": 1773007200,
+    "calendar": 1773007200,
+    "weather": 1773007200,
+    "notifications": 1773007200
   },
-  "heartbeatCount": 0,
-  "lastHeartbeat": null,
+  "heartbeatCount": 1,
+  "lastHeartbeat": "2026-03-09T06:00:00+08:00",
   "dailyStats": {
     "date": "2026-03-08",
     "tasksCompleted": 0,
