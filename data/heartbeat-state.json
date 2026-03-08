@@ -1,0 +1,41 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "notifications": null
+  },
+  "heartbeatCount": 0,
+  "lastHeartbeat": null,
+  "dailyStats": {
+    "date": "2026-03-08",
+    "tasksCompleted": 0,
+    "skillsLearned": 0,
+    "errorsEncountered": 0,
+    "tokensUsed": 0
+  },
+  "tokenBudget": {
+    "daily": {
+      "limit": 50000,
+      "used": 0,
+      "remaining": 50000,
+      "usagePercent": 0.0,
+      "lastReset": "2026-03-08T00:00:00Z",
+      "nextReset": "2026-03-09T00:00:00Z"
+    },
+    "monthly": {
+      "limit": 1000000,
+      "used": 0,
+      "remaining": 1000000,
+      "usagePercent": 0,
+      "resetDay": 1
+    },
+    "alerts": {
+      "daily80Percent": false,
+      "daily95Percent": false,
+      "monthly80Percent": false
+    }
+  },
+  "evolutionReports": [],
+  "固化Skills": []
+}
