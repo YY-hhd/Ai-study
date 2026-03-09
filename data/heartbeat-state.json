@@ -41,6 +41,8 @@
   "backups": {
     "lastBackup": "2026-03-10T04:04:48+08:00",
     "backupCount": 1,
-    "rotationDays": 7
+    "rotationDays": 7,
+    "lastCheck": "2026-03-10T05:04:49+08:00",
+    "skippedReason": "backup created 1h ago, no significant changes"
   }
 }
