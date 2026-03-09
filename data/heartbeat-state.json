@@ -1,12 +1,12 @@
 {
   "lastChecks": {
-    "email": 1773007200,
-    "calendar": 1773007200,
-    "weather": 1773007200,
-    "notifications": 1773007200
+    "email": 1773115200,
+    "calendar": 1773115200,
+    "weather": 1773115200,
+    "notifications": 1773115200
   },
-  "heartbeatCount": 1,
-  "lastHeartbeat": "2026-03-09T06:00:00+08:00",
+  "heartbeatCount": 2,
+  "lastHeartbeat": "2026-03-10T04:00:00+08:00",
   "dailyStats": {
     "date": "2026-03-08",
     "tasksCompleted": 0,
@@ -37,5 +37,10 @@
     }
   },
   "evolutionReports": [],
-  "固化Skills": []
+  "固化Skills": [],
+  "backups": {
+    "lastBackup": "2026-03-10T04:04:48+08:00",
+    "backupCount": 1,
+    "rotationDays": 7
+  }
 }
