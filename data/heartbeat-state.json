@@ -42,7 +42,7 @@
     "lastBackup": "2026-03-10T04:04:48+08:00",
     "backupCount": 1,
     "rotationDays": 7,
-    "lastCheck": "2026-03-10T07:05:23+08:00",
-    "skippedReason": "backup created 3h ago, no significant changes"
+    "lastCheck": "2026-03-10T08:36:22+08:00",
+    "skippedReason": "backup created 4.5h ago, only 1 file changed"
   }
 }
