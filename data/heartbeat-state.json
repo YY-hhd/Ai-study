@@ -46,9 +46,9 @@
     "skippedReason": "backup created 1h ago at 22:08, no significant changes"
   },
   "modelHealth": {
-    "lastCheck": "2026-03-10T12:01:00+08:00",
+    "lastCheck": "2026-03-11T00:00:53+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 1
+    "checkCount": 2
   }
 }
