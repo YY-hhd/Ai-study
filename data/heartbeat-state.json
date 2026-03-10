@@ -42,8 +42,8 @@
     "lastBackup": "2026-03-10T22:08:00+08:00",
     "backupCount": 2,
     "rotationDays": 7,
-    "lastCheck": "2026-03-10T22:08:00+08:00",
-    "skippedReason": "backup created 13h ago at 04:04, only auto-state file changed"
+    "lastCheck": "2026-03-10T23:04:49+08:00",
+    "skippedReason": "backup created 1h ago at 22:08, no significant changes"
   },
   "modelHealth": {
     "lastCheck": "2026-03-10T12:01:00+08:00",
