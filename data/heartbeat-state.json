@@ -39,10 +39,10 @@
   "evolutionReports": [],
   "固化Skills": [],
   "backups": {
-    "lastBackup": "2026-03-10T04:04:48+08:00",
-    "backupCount": 1,
+    "lastBackup": "2026-03-10T22:08:00+08:00",
+    "backupCount": 2,
     "rotationDays": 7,
-    "lastCheck": "2026-03-10T17:04:48+08:00",
+    "lastCheck": "2026-03-10T22:08:00+08:00",
     "skippedReason": "backup created 13h ago at 04:04, only auto-state file changed"
   },
   "modelHealth": {
