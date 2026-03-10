@@ -1,12 +1,12 @@
 {
   "lastChecks": {
-    "email": 1773151800,
-    "calendar": 1773151800,
-    "weather": 1773151800,
-    "notifications": 1773151800
+    "email": 1773104492,
+    "calendar": 1773104492,
+    "weather": 1773104492,
+    "notifications": 1773104492
   },
-  "heartbeatCount": 10,
-  "lastHeartbeat": "2026-03-10T08:36:08+08:00",
+  "heartbeatCount": 11,
+  "lastHeartbeat": "2026-03-10T09:00:00+08:00",
   "dailyStats": {
     "date": "2026-03-10",
     "tasksCompleted": 0,
@@ -42,7 +42,7 @@
     "lastBackup": "2026-03-10T04:04:48+08:00",
     "backupCount": 1,
     "rotationDays": 7,
-    "lastCheck": "2026-03-10T08:36:22+08:00",
-    "skippedReason": "backup created 4.5h ago, only 1 file changed"
+    "lastCheck": "2026-03-10T09:04:48+08:00",
+    "skippedReason": "backup created 5h ago at 04:04, only heartbeat-state.json changed"
   }
 }
