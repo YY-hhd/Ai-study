@@ -9,10 +9,10 @@
   "lastHeartbeat": "2026-03-10T22:02:00+08:00",
   "dailyStats": {
     "date": "2026-03-10",
-    "tasksCompleted": 0,
-    "skillsLearned": 0,
+    "tasksCompleted": 8,
+    "skillsLearned": 2,
     "errorsEncountered": 0,
-    "tokensUsed": 0
+    "tokensUsed": 3000
   },
   "tokenBudget": {
     "daily": {
