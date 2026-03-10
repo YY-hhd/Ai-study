@@ -1,18 +1,18 @@
 {
   "lastChecks": {
-    "email": 1773242400,
-    "calendar": 1773242400,
-    "weather": 1773242400,
-    "notifications": 1773242400
+    "email": 1773244800,
+    "calendar": 1773244800,
+    "weather": 1773244800,
+    "notifications": 1773244800
   },
   "heartbeatCount": 30,
-  "lastHeartbeat": "2026-03-10T23:30:00+08:00",
+  "lastHeartbeat": "2026-03-11T00:00:00+08:00",
   "dailyStats": {
-    "date": "2026-03-10",
-    "tasksCompleted": 10,
-    "skillsLearned": 2,
+    "date": "2026-03-11",
+    "tasksCompleted": 0,
+    "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 3500
+    "tokensUsed": 0
   },
   "tokenBudget": {
     "daily": {
@@ -20,8 +20,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0.0,
-      "lastReset": "2026-03-10T00:00:00Z",
-      "nextReset": "2026-03-11T00:00:00Z"
+      "lastReset": "2026-03-11T00:00:00Z",
+      "nextReset": "2026-03-12T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
