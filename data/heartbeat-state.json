@@ -5,14 +5,15 @@
     "weather": 1773286200,
     "notifications": 1773286200
   },
-  "heartbeatCount": 35,
-  "lastHeartbeat": "2026-03-11T03:00:00+08:00",
+  "heartbeatCount": 36,
+  "lastHeartbeat": "2026-03-11T20:30:00+08:00",
   "dailyStats": {
     "date": "2026-03-11",
-    "tasksCompleted": 0,
+    "tasksCompleted": 2,
     "skillsLearned": 0,
-    "errorsEncountered": 0,
-    "tokensUsed": 0
+    "errorsEncountered": 1,
+    "tokensUsed": 3500,
+    "notes": "web_search API key missing, browser tool unavailable in WSL2"
   },
   "tokenBudget": {
     "daily": {
@@ -42,13 +43,13 @@
     "lastBackup": "2026-03-10T22:08:00+08:00",
     "backupCount": 2,
     "rotationDays": 7,
-    "lastCheck": "2026-03-11T03:04:48+08:00",
-    "skippedReason": "backup created 5h ago at 22:08, only auto-state files changed (9 commits)"
+    "lastCheck": "2026-03-11T12:04:00+08:00",
+    "skippedReason": "backup created ~14h ago at 22:08, 24h threshold not reached (107 files changed < 10000)"
   },
   "modelHealth": {
-    "lastCheck": "2026-03-11T00:00:53+08:00",
+    "lastCheck": "2026-03-11T19:17:48+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 2
+    "checkCount": 3
   }
 }

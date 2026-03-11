@@ -141,14 +141,21 @@ _最后更新：2026-03-10_
 ## 🔧 工具配置
 
 ### 已启用工具
-- ✅ exec - 执行 shell 命令
-- ✅ browser - 浏览器控制
-- ✅ web_fetch - 网页内容获取
-- ✅ message - 消息发送
-- ✅ sessions_* - 会话管理
+| 工具 | 状态 | 说明 |
+|:---|:---:|:---|
+| exec | ✅ | 执行 shell 命令 |
+| browser | ⚠️ | WSL2 环境无法自动检测 Chrome |
+| web_fetch | ✅ | 网页内容获取 |
+| message | ✅ | 消息发送 |
+| sessions_* | ✅ | 会话管理 |
+| web_search | ⚠️ | 需配置 Brave API key |
 
 ### 浏览器配置
 - Windows Chrome: `/mnt/c/Program Files/Google/Chrome/Application/chrome.exe`
+- **问题**: browser 工具在 WSL2 中无法自动找到 Chrome，需手动指定路径
+
+### 待配置
+- `BRAVE_API_KEY` - web_search 功能依赖
 
 ---
 
