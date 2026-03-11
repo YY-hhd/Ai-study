@@ -8,12 +8,12 @@
   "heartbeatCount": 36,
   "lastHeartbeat": "2026-03-11T20:30:00+08:00",
   "dailyStats": {
-    "date": "2026-03-11",
-    "tasksCompleted": 2,
+    "date": "2026-03-12",
+    "tasksCompleted": 0,
     "skillsLearned": 0,
-    "errorsEncountered": 1,
-    "tokensUsed": 3500,
-    "notes": "web_search API key missing, browser tool unavailable in WSL2"
+    "errorsEncountered": 0,
+    "tokensUsed": 0,
+    "notes": ""
   },
   "tokenBudget": {
     "daily": {
@@ -21,8 +21,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0.0,
-      "lastReset": "2026-03-11T00:00:00Z",
-      "nextReset": "2026-03-12T00:00:00Z"
+      "lastReset": "2026-03-12T00:00:00Z",
+      "nextReset": "2026-03-13T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
@@ -56,9 +56,9 @@
     "triggerReason": "24h threshold exceeded (~25h since last backup)"
   },
   "modelHealth": {
-    "lastCheck": "2026-03-11T19:17:48+08:00",
+    "lastCheck": "2026-03-12T00:00:22+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 3
+    "checkCount": 4
   }
 }
