@@ -50,8 +50,8 @@
     "lastBackup": "2026-03-10T22:08:00+08:00",
     "backupCount": 2,
     "rotationDays": 7,
-    "lastCheck": "2026-03-11T12:04:00+08:00",
-    "skippedReason": "backup created ~14h ago at 22:08, 24h threshold not reached (107 files changed < 10000)"
+    "lastCheck": "2026-03-11T22:04:48+08:00",
+    "skippedReason": "backup created ~24h ago at 22:08, threshold not reached yet (~4min remaining). No uncommitted changes (git status: 0 files)."
   },
   "modelHealth": {
     "lastCheck": "2026-03-11T19:17:48+08:00",
