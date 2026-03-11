@@ -37,7 +37,14 @@
       "monthly80Percent": false
     }
   },
-  "evolutionReports": [],
+  "evolutionReports": [
+    {
+      "date": "2026-03-11",
+      "path": "data/evolution-reports/2026-03-11.md",
+      "generatedAt": "2026-03-11T22:01:48+08:00",
+      "skillsIdentified": 3
+    }
+  ],
   "固化Skills": [],
   "backups": {
     "lastBackup": "2026-03-10T22:08:00+08:00",
