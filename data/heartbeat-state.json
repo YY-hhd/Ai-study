@@ -47,11 +47,13 @@
   ],
   "固化Skills": [],
   "backups": {
-    "lastBackup": "2026-03-10T22:08:00+08:00",
-    "backupCount": 2,
+    "lastBackup": "2026-03-11T23:04:48+08:00",
+    "backupCount": 3,
     "rotationDays": 7,
-    "lastCheck": "2026-03-11T22:04:48+08:00",
-    "skippedReason": "backup created ~24h ago at 22:08, threshold not reached yet (~4min remaining). No uncommitted changes (git status: 0 files)."
+    "lastCheck": "2026-03-11T23:04:48+08:00",
+    "backupTag": "backup-2026-03-11-wed",
+    "filesChanged": 1,
+    "triggerReason": "24h threshold exceeded (~25h since last backup)"
   },
   "modelHealth": {
     "lastCheck": "2026-03-11T19:17:48+08:00",
