@@ -53,17 +53,17 @@
   ],
   "固化Skills": [],
   "backups": {
-    "lastBackup": "2026-03-12T03:05:00+08:00",
-    "backupCount": 3,
+    "lastBackup": "2026-03-13T03:04:48+08:00",
+    "backupCount": 4,
     "rotationDays": 7,
-    "lastCheck": "2026-03-13T02:04:48+08:00",
-    "backupTag": "backup-2026-03-12-0305",
-    "filesChanged": 3,
-    "triggerReason": "scheduled_check",
-    "nextCheck": "2026-03-13T03:04:48+08:00",
-    "hoursSinceBackup": 23.0,
+    "lastCheck": "2026-03-13T03:04:48+08:00",
+    "backupTag": "backup-2026-03-13-0304",
+    "filesChanged": 1,
+    "triggerReason": "24h threshold exceeded (~24h since last backup)",
+    "nextCheck": "2026-03-13T04:04:48+08:00",
+    "hoursSinceBackup": 0.0,
     "backupNeeded": false,
-    "checkReason": "23h < 24h threshold, 3 files < 10K threshold"
+    "checkReason": "Backup completed successfully"
   },
   "modelHealth": {
     "lastCheck": "2026-03-13T00:00:25+08:00",
