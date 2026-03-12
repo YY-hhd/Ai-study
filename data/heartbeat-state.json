@@ -5,8 +5,8 @@
     "weather": 1773286200,
     "notifications": 1773286200
   },
-  "heartbeatCount": 36,
-  "lastHeartbeat": "2026-03-11T20:30:00+08:00",
+  "lastHeartbeat": "2026-03-12T07:00:00+08:00",
+  "heartbeatCount": 38,
   "dailyStats": {
     "date": "2026-03-12",
     "tasksCompleted": 0,
@@ -47,13 +47,15 @@
   ],
   "固化Skills": [],
   "backups": {
-    "lastBackup": "2026-03-11T23:04:48+08:00",
+    "lastBackup": "2026-03-12T03:05:00+08:00",
     "backupCount": 3,
     "rotationDays": 7,
-    "lastCheck": "2026-03-11T23:04:48+08:00",
-    "backupTag": "backup-2026-03-11-wed",
-    "filesChanged": 1,
-    "triggerReason": "24h threshold exceeded (~25h since last backup)"
+    "lastCheck": "2026-03-12T18:23:00+08:00",
+    "backupTag": "backup-2026-03-12-0305",
+    "filesChanged": 0,
+    "triggerReason": "scheduled_check",
+    "nextCheck": "2026-03-12T19:23:00+08:00",
+    "hoursSinceBackup": 15.3
   },
   "modelHealth": {
     "lastCheck": "2026-03-12T00:00:22+08:00",
