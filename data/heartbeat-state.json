@@ -5,11 +5,10 @@
     "weather": 1773286200,
     "notifications": 1773286200
   },
-  "lastHeartbeat": "2026-03-12T21:30:00+08:00",
-  "heartbeatCount": 39,
-  "heartbeatCount": 38,
+  "lastHeartbeat": "2026-03-13T00:00:00+08:00",
+  "heartbeatCount": 40,
   "dailyStats": {
-    "date": "2026-03-12",
+    "date": "2026-03-13",
     "tasksCompleted": 0,
     "skillsLearned": 0,
     "errorsEncountered": 0,
@@ -22,8 +21,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0.0,
-      "lastReset": "2026-03-12T00:00:00Z",
-      "nextReset": "2026-03-13T00:00:00Z"
+      "lastReset": "2026-03-13T00:00:00Z",
+      "nextReset": "2026-03-14T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
@@ -57,19 +56,19 @@
     "lastBackup": "2026-03-12T03:05:00+08:00",
     "backupCount": 3,
     "rotationDays": 7,
-    "lastCheck": "2026-03-12T19:04:00+08:00",
+    "lastCheck": "2026-03-13T00:04:48+08:00",
     "backupTag": "backup-2026-03-12-0305",
-    "filesChanged": 2,
+    "filesChanged": 1,
     "triggerReason": "scheduled_check",
-    "nextCheck": "2026-03-12T20:04:00+08:00",
-    "hoursSinceBackup": 16.0,
+    "nextCheck": "2026-03-13T01:04:48+08:00",
+    "hoursSinceBackup": 21.0,
     "backupNeeded": false,
-    "checkReason": "16h < 24h threshold, 2 files < 10K threshold"
+    "checkReason": "21h < 24h threshold, 1 file < 10K threshold"
   },
   "modelHealth": {
-    "lastCheck": "2026-03-12T18:23:34+08:00",
+    "lastCheck": "2026-03-13T00:00:25+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 5
+    "checkCount": 6
   }
 }
