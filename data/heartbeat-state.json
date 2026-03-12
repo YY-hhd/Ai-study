@@ -56,14 +56,14 @@
     "lastBackup": "2026-03-12T03:05:00+08:00",
     "backupCount": 3,
     "rotationDays": 7,
-    "lastCheck": "2026-03-13T00:04:48+08:00",
+    "lastCheck": "2026-03-13T02:04:48+08:00",
     "backupTag": "backup-2026-03-12-0305",
-    "filesChanged": 1,
+    "filesChanged": 3,
     "triggerReason": "scheduled_check",
-    "nextCheck": "2026-03-13T01:04:48+08:00",
-    "hoursSinceBackup": 21.0,
+    "nextCheck": "2026-03-13T03:04:48+08:00",
+    "hoursSinceBackup": 23.0,
     "backupNeeded": false,
-    "checkReason": "21h < 24h threshold, 1 file < 10K threshold"
+    "checkReason": "23h < 24h threshold, 3 files < 10K threshold"
   },
   "modelHealth": {
     "lastCheck": "2026-03-13T00:00:25+08:00",
