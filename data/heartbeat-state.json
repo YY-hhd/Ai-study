@@ -5,8 +5,8 @@
     "weather": 1773286200,
     "notifications": 1773286200
   },
-  "lastHeartbeat": "2026-03-13T00:00:00+08:00",
-  "heartbeatCount": 40,
+  "lastHeartbeat": "2026-03-13T20:30:00+08:00",
+  "heartbeatCount": 43,
   "dailyStats": {
     "date": "2026-03-13",
     "tasksCompleted": 0,
@@ -56,19 +56,25 @@
     "lastBackup": "2026-03-13T03:04:48+08:00",
     "backupCount": 4,
     "rotationDays": 7,
-    "lastCheck": "2026-03-13T03:04:48+08:00",
+    "lastCheck": "2026-03-13T22:00:25+08:00",
     "backupTag": "backup-2026-03-13-0304",
-    "filesChanged": 1,
+    "filesChanged": 2,
     "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-13T04:04:48+08:00",
-    "hoursSinceBackup": 0.0,
+    "nextCheck": "2026-03-13T23:04:48+08:00",
+    "hoursSinceBackup": 19.0,
     "backupNeeded": false,
-    "checkReason": "Backup completed successfully"
+    "checkReason": "No backup needed - only 16.8h since last backup, 2 file changes (threshold: 24h or 10K changes)",
+    "backupStructure": {
+      "enabled": true,
+      "rotation": "7-day (Monday-Sunday)",
+      "lastBackupFolder": "backup/friday",
+      "backupSize": "176K"
+    }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-13T00:00:25+08:00",
+    "lastCheck": "2026-03-13T19:55:54+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 6
+    "checkCount": 7
   }
 }
