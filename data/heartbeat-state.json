@@ -5,30 +5,30 @@
     "weather": 1773286200,
     "notifications": 1773286200
   },
-  "lastHeartbeat": "2026-03-13T20:30:00+08:00",
-  "heartbeatCount": 43,
+  "lastHeartbeat": "2026-03-13T20:00:00+08:00",
+  "heartbeatCount": 42,
   "dailyStats": {
     "date": "2026-03-13",
-    "tasksCompleted": 0,
-    "skillsLearned": 0,
+    "tasksCompleted": 1,
+    "skillsLearned": 3,
     "errorsEncountered": 0,
-    "tokensUsed": 0,
-    "notes": ""
+    "tokensUsed": 15000,
+    "notes": "仗剑传说贤者攻略 + 每日进化报告"
   },
   "tokenBudget": {
     "daily": {
       "limit": 50000,
-      "used": 0,
-      "remaining": 50000,
-      "usagePercent": 0.0,
+      "used": 15000,
+      "remaining": 35000,
+      "usagePercent": 30.0,
       "lastReset": "2026-03-13T00:00:00Z",
       "nextReset": "2026-03-14T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
-      "used": 0,
-      "remaining": 1000000,
-      "usagePercent": 0,
+      "used": 150000,
+      "remaining": 850000,
+      "usagePercent": 15,
       "resetDay": 1
     },
     "alerts": {
@@ -39,9 +39,9 @@
   },
   "evolutionReports": [
     {
-      "date": "2026-03-11",
-      "path": "data/evolution-reports/2026-03-11.md",
-      "generatedAt": "2026-03-11T22:01:48+08:00",
+      "date": "2026-03-13",
+      "path": "data/evolution-reports/2026-03-13.md",
+      "generatedAt": "2026-03-13T22:00:25+08:00",
       "skillsIdentified": 3
     },
     {
@@ -49,9 +49,20 @@
       "path": "data/evolution-reports/2026-03-12.md",
       "generatedAt": "2026-03-12T22:00:00+08:00",
       "skillsIdentified": 0
+    },
+    {
+      "date": "2026-03-11",
+      "path": "data/evolution-reports/2026-03-11.md",
+      "generatedAt": "2026-03-11T22:01:48+08:00",
+      "skillsIdentified": 3
     }
   ],
-  "固化Skills": [],
+  "固化 Skills": [
+    {
+      "date": "2026-03-13",
+      "skills": ["手游攻略分析框架", "百度搜索替代方案", "智能备份状态追踪"]
+    }
+  ],
   "backups": {
     "lastBackup": "2026-03-13T03:04:48+08:00",
     "backupCount": 4,
@@ -63,7 +74,7 @@
     "nextCheck": "2026-03-13T23:04:48+08:00",
     "hoursSinceBackup": 19.0,
     "backupNeeded": false,
-    "checkReason": "No backup needed - only 16.8h since last backup, 2 file changes (threshold: 24h or 10K changes)",
+    "checkReason": "No backup needed - only 19h since last backup, 2 file changes (threshold: 24h or 10K changes)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
