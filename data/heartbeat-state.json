@@ -8,27 +8,27 @@
   "lastHeartbeat": "2026-03-13T20:00:00+08:00",
   "heartbeatCount": 42,
   "dailyStats": {
-    "date": "2026-03-13",
-    "tasksCompleted": 1,
-    "skillsLearned": 3,
+    "date": "2026-03-14",
+    "tasksCompleted": 0,
+    "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 15000,
-    "notes": "仗剑传说贤者攻略 + 每日进化报告"
+    "tokensUsed": 0,
+    "notes": ""
   },
   "tokenBudget": {
     "daily": {
       "limit": 50000,
-      "used": 15000,
-      "remaining": 35000,
-      "usagePercent": 30.0,
-      "lastReset": "2026-03-13T00:00:00Z",
-      "nextReset": "2026-03-14T00:00:00Z"
+      "used": 0,
+      "remaining": 50000,
+      "usagePercent": 0.0,
+      "lastReset": "2026-03-14T00:00:00Z",
+      "nextReset": "2026-03-15T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
-      "used": 150000,
-      "remaining": 850000,
-      "usagePercent": 15,
+      "used": 165000,
+      "remaining": 835000,
+      "usagePercent": 16.5,
       "resetDay": 1
     },
     "alerts": {
@@ -64,28 +64,28 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-13T03:04:48+08:00",
-    "backupCount": 4,
+    "lastBackup": "2026-03-14T03:05:00+08:00",
+    "backupCount": 5,
     "rotationDays": 7,
-    "lastCheck": "2026-03-13T22:00:25+08:00",
-    "backupTag": "backup-2026-03-13-0304",
+    "lastCheck": "2026-03-14T03:04:49+08:00",
+    "backupTag": "backup-2026-03-14-0305",
     "filesChanged": 2,
     "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-13T23:04:48+08:00",
-    "hoursSinceBackup": 19.0,
+    "nextCheck": "2026-03-14T04:04:49+08:00",
+    "hoursSinceBackup": 0,
     "backupNeeded": false,
-    "checkReason": "No backup needed - only 19h since last backup, 2 file changes (threshold: 24h or 10K changes)",
+    "checkReason": "Backup completed - 24h threshold reached, backed up to backup/saturday/ (184K)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/friday",
-      "backupSize": "176K"
+      "lastBackupFolder": "backup/saturday",
+      "backupSize": "184K"
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-13T19:55:54+08:00",
+    "lastCheck": "2026-03-14T00:00:35+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 7
+    "checkCount": 8
   }
 }
