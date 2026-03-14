@@ -1,0 +1,74 @@
+{
+  "lastChecks": {
+    "email": 1773286200,
+    "calendar": 1773286200,
+    "weather": 1773286200,
+    "notifications": 1773286200
+  },
+  "lastHeartbeat": "2026-03-13T00:00:00+08:00",
+  "heartbeatCount": 40,
+  "dailyStats": {
+    "date": "2026-03-13",
+    "tasksCompleted": 0,
+    "skillsLearned": 0,
+    "errorsEncountered": 0,
+    "tokensUsed": 0,
+    "notes": ""
+  },
+  "tokenBudget": {
+    "daily": {
+      "limit": 50000,
+      "used": 0,
+      "remaining": 50000,
+      "usagePercent": 0.0,
+      "lastReset": "2026-03-13T00:00:00Z",
+      "nextReset": "2026-03-14T00:00:00Z"
+    },
+    "monthly": {
+      "limit": 1000000,
+      "used": 0,
+      "remaining": 1000000,
+      "usagePercent": 0,
+      "resetDay": 1
+    },
+    "alerts": {
+      "daily80Percent": false,
+      "daily95Percent": false,
+      "monthly80Percent": false
+    }
+  },
+  "evolutionReports": [
+    {
+      "date": "2026-03-11",
+      "path": "data/evolution-reports/2026-03-11.md",
+      "generatedAt": "2026-03-11T22:01:48+08:00",
+      "skillsIdentified": 3
+    },
+    {
+      "date": "2026-03-12",
+      "path": "data/evolution-reports/2026-03-12.md",
+      "generatedAt": "2026-03-12T22:00:00+08:00",
+      "skillsIdentified": 0
+    }
+  ],
+  "固化Skills": [],
+  "backups": {
+    "lastBackup": "2026-03-13T03:04:48+08:00",
+    "backupCount": 4,
+    "rotationDays": 7,
+    "lastCheck": "2026-03-13T14:04:48+08:00",
+    "backupTag": "backup-2026-03-13-0304",
+    "filesChanged": 38,
+    "triggerReason": "24h threshold exceeded (~24h since last backup)",
+    "nextCheck": "2026-03-13T15:04:48+08:00",
+    "hoursSinceBackup": 11.0,
+    "backupNeeded": false,
+    "checkReason": "No backup needed - only 11h since last backup, 38 file changes (threshold: 24h or 10K changes)"
+  },
+  "modelHealth": {
+    "lastCheck": "2026-03-13T00:00:25+08:00",
+    "status": "healthy",
+    "model": "bailian/qwen3.5-plus",
+    "checkCount": 6
+  }
+}
