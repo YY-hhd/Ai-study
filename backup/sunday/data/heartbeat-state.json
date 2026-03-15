@@ -6,15 +6,15 @@
     "notifications": 1773518400,
     "modelHealth": 1773518400
   },
-  "lastHeartbeat": "2026-03-15T12:00:00+08:00",
-  "heartbeatCount": 46,
+  "lastHeartbeat": "2026-03-14T21:30:00+08:00",
+  "heartbeatCount": 45,
   "dailyStats": {
-    "date": "2026-03-15",
-    "tasksCompleted": 1,
+    "date": "2026-03-14",
+    "tasksCompleted": 3,
     "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 500,
-    "notes": "智能备份触发 (03:04) - 24h 阈值达标"
+    "tokensUsed": 3000,
+    "notes": "系统维护日：智能备份 (03:05) + 记忆整合 (20:00) + 进化报告生成 (22:00)"
   },
   "tokenBudget": {
     "daily": {
@@ -71,22 +71,22 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-15T03:04:48+08:00",
-    "backupCount": 6,
+    "lastBackup": "2026-03-14T03:05:00+08:00",
+    "backupCount": 5,
     "rotationDays": 7,
-    "lastCheck": "2026-03-15T11:04:48+08:00",
-    "backupTag": "backup-2026-03-15-0304",
-    "filesChanged": 2,
+    "lastCheck": "2026-03-15T03:04:48+08:00",
+    "backupTag": "backup-2026-03-14-0305",
+    "filesChanged": 121,
     "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-15T12:00:00+08:00",
-    "hoursSinceBackup": 8,
-    "backupNeeded": false,
-    "checkReason": "Backup recent (8h ago), only 2 files changed - no action needed",
+    "nextCheck": "2026-03-15T04:00:00+08:00",
+    "hoursSinceBackup": 24,
+    "backupNeeded": true,
+    "checkReason": "24h threshold met - triggering backup",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/sunday",
-      "backupSize": "220K"
+      "lastBackupFolder": "backup/saturday",
+      "backupSize": "184K"
     }
   },
   "modelHealth": {
