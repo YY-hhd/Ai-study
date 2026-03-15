@@ -6,15 +6,15 @@
     "notifications": 1773594000,
     "modelHealth": 1773594000
   },
-  "lastHeartbeat": "2026-03-15T17:00:00+08:00",
-  "heartbeatCount": 47,
+  "lastHeartbeat": "2026-03-15T22:00:00+08:00",
+  "heartbeatCount": 48,
   "dailyStats": {
     "date": "2026-03-15",
-    "tasksCompleted": 1,
+    "tasksCompleted": 2,
     "skillsLearned": 0,
     "errorsEncountered": 0,
     "tokensUsed": 500,
-    "notes": "智能备份触发 (03:04) - 24h 阈值达标"
+    "notes": "智能备份触发 (03:04) + 进化报告生成 (22:00)"
   },
   "tokenBudget": {
     "daily": {
@@ -74,14 +74,14 @@
     "lastBackup": "2026-03-15T03:04:48+08:00",
     "backupCount": 6,
     "rotationDays": 7,
-    "lastCheck": "2026-03-15T18:04:48+08:00",
+    "lastCheck": "2026-03-15T21:04:49+08:00",
     "backupTag": "backup-2026-03-15-0304",
     "filesChanged": 109,
     "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-15T19:00:00+08:00",
-    "hoursSinceBackup": 15,
+    "nextCheck": "2026-03-15T22:00:00+08:00",
+    "hoursSinceBackup": 18,
     "backupNeeded": false,
-    "checkReason": "Backup recent (15h ago), 109 files changed (<10K threshold) - no action needed",
+    "checkReason": "Backup recent (18h ago), 109 files changed (<10K threshold) - no action needed",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
