@@ -9,12 +9,12 @@
   "lastHeartbeat": "2026-03-15T22:00:00+08:00",
   "heartbeatCount": 48,
   "dailyStats": {
-    "date": "2026-03-15",
-    "tasksCompleted": 2,
-    "skillsLearned": 3,
+    "date": "2026-03-16",
+    "tasksCompleted": 1,
+    "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 500,
-    "notes": "智能备份触发 (03:04) + 进化报告生成 (22:00) + 3 技能识别"
+    "tokensUsed": 100,
+    "notes": "智能备份触发 (03:04, 24h threshold)"
   },
   "tokenBudget": {
     "daily": {
@@ -81,22 +81,22 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-15T03:04:48+08:00",
-    "backupCount": 6,
+    "lastBackup": "2026-03-16T03:05:00+08:00",
+    "backupCount": 7,
     "rotationDays": 7,
-    "lastCheck": "2026-03-15T21:04:49+08:00",
-    "backupTag": "backup-2026-03-15-0304",
-    "filesChanged": 109,
+    "lastCheck": "2026-03-16T03:05:00+08:00",
+    "backupTag": "backup-2026-03-16-0304",
+    "filesChanged": 114,
     "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-15T22:00:00+08:00",
-    "hoursSinceBackup": 18,
+    "nextCheck": "2026-03-16T04:00:00+08:00",
+    "hoursSinceBackup": 0,
     "backupNeeded": false,
-    "checkReason": "Backup recent (18h ago), 109 files changed (<10K threshold) - no action needed",
+    "checkReason": "Backup completed successfully (24h threshold)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/sunday",
-      "backupSize": "220K"
+      "lastBackupFolder": "backup/monday",
+      "backupSize": "416K"
     }
   },
   "modelHealth": {
