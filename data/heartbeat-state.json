@@ -6,15 +6,15 @@
     "notifications": 1773594000,
     "modelHealth": 1773594000
   },
-  "lastHeartbeat": "2026-03-16T09:00:00+08:00",
-  "heartbeatCount": 49,
+  "lastHeartbeat": "2026-03-16T10:04:00+08:00",
+  "heartbeatCount": 50,
   "dailyStats": {
     "date": "2026-03-16",
-    "tasksCompleted": 1,
+    "tasksCompleted": 2,
     "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 100,
-    "notes": "智能备份触发 (03:04, 24h threshold)"
+    "tokensUsed": 150,
+    "notes": "智能备份触发 (03:04, 24h threshold); 备份检查 (10:04, 无变更)"
   },
   "tokenBudget": {
     "daily": {
@@ -84,14 +84,14 @@
     "lastBackup": "2026-03-16T03:05:00+08:00",
     "backupCount": 7,
     "rotationDays": 7,
-    "lastCheck": "2026-03-16T09:05:00+08:00",
+    "lastCheck": "2026-03-16T11:04:00+08:00",
     "backupTag": "backup-2026-03-16-0304",
-    "filesChanged": 114,
+    "filesChanged": 0,
     "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-16T10:00:00+08:00",
-    "hoursSinceBackup": 6,
+    "nextCheck": "2026-03-16T12:00:00+08:00",
+    "hoursSinceBackup": 8,
     "backupNeeded": false,
-    "checkReason": "No backup needed (completed 6h ago at 03:05)",
+    "checkReason": "No backup needed (completed 8h ago at 03:05, 0 file changes)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
