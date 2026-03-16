@@ -1,13 +1,13 @@
 {
   "lastChecks": {
-    "email": 1773693600,
-    "calendar": 1773693600,
-    "weather": 1773693600,
-    "notifications": 1773693600,
-    "modelHealth": 1773693600
+    "email": 1773695400,
+    "calendar": 1773695400,
+    "weather": 1773695400,
+    "notifications": 1773695400,
+    "modelHealth": 1773695400
   },
-  "lastHeartbeat": "2026-03-16T21:00:00+08:00",
-  "heartbeatCount": 53,
+  "lastHeartbeat": "2026-03-16T21:30:00+08:00",
+  "heartbeatCount": 54,
   "dailyStats": {
     "date": "2026-03-16",
     "tasksCompleted": 2,
@@ -84,14 +84,14 @@
     "lastBackup": "2026-03-16T18:17:54+08:00",
     "backupCount": 7,
     "rotationDays": 7,
-    "lastCheck": "2026-03-16T21:04:49+08:00",
+    "lastCheck": "2026-03-16T21:30:00+08:00",
     "backupTag": "backup-2026-03-16-1817",
     "filesChanged": 0,
     "triggerReason": "Scheduled smart_backup_check",
     "nextCheck": "2026-03-16T22:00:00+08:00",
-    "hoursSinceBackup": 2.78,
+    "hoursSinceBackup": 3.2,
     "backupNeeded": false,
-    "checkReason": "No backup needed (~2.8h since last backup, below 24h/10K thresholds)",
+    "checkReason": "No backup needed (~3.2h since last backup, below 24h/10K thresholds)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
