@@ -10,11 +10,11 @@
   "heartbeatCount": 55,
   "dailyStats": {
     "date": "2026-03-16",
-    "tasksCompleted": 2,
+    "tasksCompleted": 3,
     "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 150,
-    "notes": "智能备份触发 (03:04, 24h threshold); 备份检查 (10:04, 无变更)"
+    "tokensUsed": 200,
+    "notes": "智能备份触发 (03:04, 24h threshold); 周一备份轮换 (18:17); 每日进化报告生成 (22:01)"
   },
   "tokenBudget": {
     "daily": {
@@ -39,6 +39,12 @@
     }
   },
   "evolutionReports": [
+    {
+      "date": "2026-03-16",
+      "path": "data/evolution-reports/2026-03-16.md",
+      "generatedAt": "2026-03-16T22:01:19+08:00",
+      "skillsIdentified": 3
+    },
     {
       "date": "2026-03-15",
       "path": "data/evolution-reports/2026-03-15.md",
