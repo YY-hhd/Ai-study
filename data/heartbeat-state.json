@@ -1,13 +1,13 @@
 {
   "lastChecks": {
-    "email": 1773594000,
-    "calendar": 1773594000,
-    "weather": 1773594000,
-    "notifications": 1773594000,
-    "modelHealth": 1773594000
+    "email": 1773617160,
+    "calendar": 1773617160,
+    "weather": 1773617160,
+    "notifications": 1773617160,
+    "modelHealth": 1773617160
   },
-  "lastHeartbeat": "2026-03-16T10:04:00+08:00",
-  "heartbeatCount": 50,
+  "lastHeartbeat": "2026-03-16T17:00:00+08:00",
+  "heartbeatCount": 51,
   "dailyStats": {
     "date": "2026-03-16",
     "tasksCompleted": 2,
@@ -81,28 +81,28 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-16T03:05:00+08:00",
+    "lastBackup": "2026-03-16T18:17:54+08:00",
     "backupCount": 7,
     "rotationDays": 7,
-    "lastCheck": "2026-03-16T11:04:00+08:00",
-    "backupTag": "backup-2026-03-16-0304",
-    "filesChanged": 0,
-    "triggerReason": "24h threshold exceeded (~24h since last backup)",
-    "nextCheck": "2026-03-16T12:00:00+08:00",
-    "hoursSinceBackup": 8,
+    "lastCheck": "2026-03-16T18:17:54+08:00",
+    "backupTag": "backup-2026-03-16-1817",
+    "filesChanged": 1,
+    "triggerReason": "Scheduled smart_backup_check",
+    "nextCheck": "2026-03-16T19:00:00+08:00",
+    "hoursSinceBackup": 0,
     "backupNeeded": false,
-    "checkReason": "No backup needed (completed 8h ago at 03:05, 0 file changes)",
+    "checkReason": "Backup completed successfully (Monday rotation)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
       "lastBackupFolder": "backup/monday",
-      "backupSize": "416K"
+      "backupSize": "~416K"
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-14T06:00:23+08:00",
+    "lastCheck": "2026-03-16T12:01:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 9
+    "checkCount": 10
   }
 }
