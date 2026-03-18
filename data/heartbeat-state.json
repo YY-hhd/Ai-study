@@ -6,24 +6,24 @@
     "notifications": 1773717000,
     "modelHealth": 1773705710
   },
-  "lastHeartbeat": "2026-03-17T22:00:00+08:00",
-  "heartbeatCount": 70,
+  "lastHeartbeat": "2026-03-18T03:04:48+08:00",
+  "heartbeatCount": 71,
   "dailyStats": {
-    "date": "2026-03-17",
-    "tasksCompleted": 2,
+    "date": "2026-03-18",
+    "tasksCompleted": 0,
     "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 100,
-    "notes": "智能备份触发 (15:05, 24h threshold); 记忆文件补全; 每日进化报告生成 (22:00)"
+    "tokensUsed": 0,
+    "notes": "新的一天开始; 清理 7 天前记忆文件 (2026-03-08, 2026-03-10)"
   },
   "tokenBudget": {
     "daily": {
       "limit": 50000,
-      "used": 50,
-      "remaining": 49950,
-      "usagePercent": 0.1,
-      "lastReset": "2026-03-17T00:00:00Z",
-      "nextReset": "2026-03-18T00:00:00Z"
+      "used": 0,
+      "remaining": 50000,
+      "usagePercent": 0,
+      "lastReset": "2026-03-18T00:00:00Z",
+      "nextReset": "2026-03-19T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
@@ -96,14 +96,14 @@
     "lastBackup": "2026-03-17T15:05:10+08:00",
     "backupCount": 8,
     "rotationDays": 7,
-    "lastCheck": "2026-03-17T22:00:00+08:00",
+    "lastCheck": "2026-03-18T13:04:49+08:00",
     "backupTag": "backup-2026-03-17-1505",
-    "filesChanged": 1,
+    "filesChanged": 5,
     "triggerReason": "Scheduled smart_backup_check (24h threshold)",
-    "nextCheck": "2026-03-17T23:00:00+08:00",
-    "hoursSinceBackup": 7,
+    "nextCheck": "2026-03-19T07:04:49+08:00",
+    "hoursSinceBackup": 22,
     "backupNeeded": false,
-    "checkReason": "No backup needed (~7h since last backup, under 24h threshold)",
+    "checkReason": "No backup needed (~22h since last backup, under 24h threshold; 5 files changed, under 10K threshold)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
@@ -112,10 +112,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-17T06:00:23+08:00",
+    "lastCheck": "2026-03-18T06:00:22+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 12,
-    "nextCheck": "2026-03-18T06:00:00+08:00"
+    "checkCount": 13,
+    "nextCheck": "2026-03-18T12:00:00+08:00"
   }
 }
