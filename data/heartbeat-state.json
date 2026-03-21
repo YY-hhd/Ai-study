@@ -6,15 +6,15 @@
     "notifications": 1773717000,
     "modelHealth": 1773705710
   },
-  "lastHeartbeat": "2026-03-19T21:05:00+08:00",
-  "heartbeatCount": 72,
+  "lastHeartbeat": "2026-03-21T03:30:00+08:00",
+  "heartbeatCount": 89,
   "dailyStats": {
-    "date": "2026-03-19",
+    "date": "2026-03-21",
     "tasksCompleted": 0,
     "skillsLearned": 0,
     "errorsEncountered": 0,
     "tokensUsed": 0,
-    "notes": "新的一天开始; 智能备份完成 (Thursday)"
+    "notes": "新的一天开始 (Saturday); 系统正常运行"
   },
   "tokenBudget": {
     "daily": {
@@ -22,8 +22,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0,
-      "lastReset": "2026-03-18T00:00:00Z",
-      "nextReset": "2026-03-19T00:00:00Z"
+      "lastReset": "2026-03-21T00:00:00Z",
+      "nextReset": "2026-03-22T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
@@ -39,6 +39,12 @@
     }
   },
   "evolutionReports": [
+    {
+      "date": "2026-03-20",
+      "path": "data/evolution-reports/2026-03-20.md",
+      "generatedAt": "2026-03-20T22:00:00+08:00",
+      "skillsIdentified": 0
+    },
     {
       "date": "2026-03-19",
       "path": "data/evolution-reports/2026-03-19.md",
@@ -99,29 +105,29 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-19T21:05:00+08:00",
-    "backupCount": 10,
+    "lastBackup": "2026-03-21T04:05:00+08:00",
+    "backupCount": 11,
     "rotationDays": 7,
-    "lastCheck": "2026-03-19T21:05:00+08:00",
-    "backupTag": "backup-2026-03-19-2105",
-    "filesChanged": 1,
+    "lastCheck": "2026-03-21T10:04:00+08:00",
+    "backupTag": "backup-2026-03-21-0405",
+    "filesChanged": 0,
     "triggerReason": "Scheduled smart_backup_check (24h threshold)",
-    "nextCheck": "2026-03-20T07:05:00+08:00",
-    "hoursSinceBackup": 0,
+    "nextCheck": "2026-03-21T11:00:00+08:00",
+    "hoursSinceBackup": 6,
     "backupNeeded": false,
-    "checkReason": "Backup completed successfully (~965K); 7-day rotation maintained",
+    "checkReason": "No backup needed - last backup 6h ago, under 24h threshold",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/thursday",
-      "backupSize": "~965K"
+      "lastBackupFolder": "backup/saturday-20260321",
+      "backupSize": "~44K"
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-19T21:05:00+08:00",
+    "lastCheck": "2026-03-21T00:02:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 14,
-    "nextCheck": "2026-03-20T03:00:00+08:00"
+    "checkCount": 18,
+    "nextCheck": "2026-03-21T06:00:00+08:00"
   }
 }
