@@ -6,8 +6,8 @@
     "notifications": 1773717000,
     "modelHealth": 1773705710
   },
-  "lastHeartbeat": "2026-03-21T22:00:00+08:00",
-  "heartbeatCount": 96,
+  "lastHeartbeat": "2026-03-21T23:04:00+08:00",
+  "heartbeatCount": 97,
   "dailyStats": {
     "date": "2026-03-21",
     "tasksCompleted": 8,
@@ -114,14 +114,14 @@
     "lastBackup": "2026-03-21T14:05:00+08:00",
     "backupCount": 12,
     "rotationDays": 7,
-    "lastCheck": "2026-03-21T21:04:00+08:00",
+    "lastCheck": "2026-03-22T03:04:48+08:00",
     "backupTag": "backup-2026-03-21-1405",
-    "filesChanged": 2,
+    "filesChanged": 5,
     "triggerReason": "10K file change threshold exceeded (new skills installed)",
-    "nextCheck": "2026-03-21T22:00:00+08:00",
-    "hoursSinceBackup": 7,
+    "nextCheck": "2026-03-22T04:00:00+08:00",
+    "hoursSinceBackup": 13,
     "backupNeeded": false,
-    "checkReason": "No backup needed - only 7h since last backup (24h threshold not met); 2 file changes (< 10K threshold)",
+    "checkReason": "No backup needed - only 13h since last backup (24h threshold not met); 5 workspace files changed (< 10K threshold)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
@@ -130,10 +130,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-21T21:04:00+08:00",
+    "lastCheck": "2026-03-22T00:00:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 19,
-    "nextCheck": "2026-03-22T03:00:00+08:00"
+    "checkCount": 20,
+    "nextCheck": "2026-03-22T06:00:00+08:00"
   }
 }
