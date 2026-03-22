@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "budget": {
+    "daily": {
+      "limit": 50000,
+      "used": 0,
+      "resetTime": "00:00"
+    },
+    "monthly": {
+      "limit": 1000000,
+      "used": 0,
+      "resetDay": 1
+    },
+    "alertThreshold": 0.8
+  },
+  "pools": {
+    "fast": {
+      "name": "高速池",
+      "primary": "bailian/qwen-turbo",
+      "fallback": "bailian/qwen-turbo",
+      "description": "快速响应 - 日常会话、简单任务",
+      "costLevel": "low",
+      "maxTokens": 2000
+    },
+    "smart": {
+      "name": "智能池",
+      "primary": "bailian/qwen-plus",
+      "fallback": "bailian/qwen-turbo",
+      "description": "复杂推理 - 分析、编程、推理",
+      "costLevel": "medium",
+      "maxTokens": 8000
+    },
+    "text": {
+      "name": "文本池",
+      "primary": "bailian/qwen-plus",
+      "fallback": "bailian/qwen-turbo",
+      "description": "长文本处理 - 文档、写作、翻译",
+      "costLevel": "medium",
+      "maxTokens": 10000
+    },
+    "vision": {
+      "name": "视觉池",
+      "primary": "bailian/qwen-vl-plus",
+      "fallback": "bailian/qwen-turbo",
+      "description": "图片/视频 - 图像生成、看图",
+      "costLevel": "high",
+      "maxTokens": 5000
+    }
+  },
+  "healthCheck": {
+    "interval": "6h",
+    "timeout": 5000,
+    "retries": 3
+  },
+  "routing": {
+    "rules": [
+      {
+        "keywords": ["快速", "简单", "闲聊", "quick", "simple", "hello", "hi"],
+        "pool": "fast"
+      },
+      {
+        "keywords": ["分析", "推理", "编程", "代码", "analyze", "reason", "code", "debug"],
+        "pool": "smart"
+      },
+      {
+        "keywords": ["文档", "长文本", "写作", "翻译", "document", "write", "translate", "article"],
+        "pool": "text"
+      },
+      {
+        "keywords": ["图片", "视频", "看图", "图像", "image", "video", "vision", "draw"],
+        "pool": "vision"
+      }
+    ],
+    "budgetAware": true,
+    "budgetRules": [
+      {
+        "condition": "dailyUsed > 0.8 * dailyLimit",
+        "action": "forceUsePool",
+        "targetPool": "fast"
+      },
+      {
+        "condition": "dailyUsed > 0.95 * dailyLimit",
+        "action": "alertUser"
+      }
+    ]
+  },
+  "compression": {
+    "enabled": true,
+    "triggerTokens": 3000,
+    "triggerRounds": 8,
+    "targetSavings": 0.3
+  }
+}

@@ -6,15 +6,15 @@
     "notifications": 1773717000,
     "modelHealth": 1773705710
   },
-  "lastHeartbeat": "2026-03-22T22:00:00+08:00",
-  "heartbeatCount": 106,
+  "lastHeartbeat": "2026-03-22T12:00:00+08:00",
+  "heartbeatCount": 98,
   "dailyStats": {
     "date": "2026-03-22",
     "tasksCompleted": 0,
     "skillsLearned": 0,
     "errorsEncountered": 0,
     "tokensUsed": 0,
-    "notes": "系统维护日; 备份执行 (14:05); 进化报告生成 (22:00); 无用户交互"
+    "notes": "新的一天开始; 系统正常运行"
   },
   "tokenBudget": {
     "daily": {
@@ -39,12 +39,6 @@
     }
   },
   "evolutionReports": [
-    {
-      "date": "2026-03-22",
-      "path": "data/evolution-reports/2026-03-22.md",
-      "generatedAt": "2026-03-22T22:00:00+08:00",
-      "skillsIdentified": 0
-    },
     {
       "date": "2026-03-21",
       "path": "data/evolution-reports/2026-03-21.md",
@@ -117,29 +111,29 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-22T14:05:12+08:00",
-    "backupCount": 13,
+    "lastBackup": "2026-03-21T14:05:00+08:00",
+    "backupCount": 12,
     "rotationDays": 7,
-    "lastCheck": "2026-03-22T22:00:00+08:00",
-    "backupTag": "backup-2026-03-22-1405",
-    "filesChanged": 4,
-    "triggerReason": "24h time threshold met",
-    "nextCheck": "2026-03-22T23:00:00+08:00",
-    "hoursSinceBackup": 8,
+    "lastCheck": "2026-03-22T13:04:49+08:00",
+    "backupTag": "backup-2026-03-21-1405",
+    "filesChanged": 5,
+    "triggerReason": "10K file change threshold exceeded (new skills installed)",
+    "nextCheck": "2026-03-22T14:00:00+08:00",
+    "hoursSinceBackup": 23,
     "backupNeeded": false,
-    "checkReason": "No backup needed - only 8h since last backup (24h threshold not met); 4 workspace files changed (< 10K threshold)",
+    "checkReason": "No backup needed - only 23h since last backup (24h threshold not met); 5 workspace files changed (< 10K threshold)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/sunday-20260322",
-      "backupSize": "~380K"
+      "lastBackupFolder": "backup/saturday-20260321-2",
+      "backupSize": "~372K"
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-22T18:00:00+08:00",
+    "lastCheck": "2026-03-22T12:00:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 23,
-    "nextCheck": "2026-03-23T00:00:00+08:00"
+    "checkCount": 22,
+    "nextCheck": "2026-03-22T18:00:00+08:00"
   }
 }
