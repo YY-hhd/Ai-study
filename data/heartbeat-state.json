@@ -1,20 +1,20 @@
 {
   "lastChecks": {
-    "email": 1774530023,
-    "calendar": 1774530023,
-    "weather": 1774530023,
-    "notifications": 1774530023,
-    "modelHealth": 1774530023
+    "email": 1774531822,
+    "calendar": 1774531822,
+    "weather": 1774531822,
+    "notifications": 1774531822,
+    "modelHealth": 1774531822
   },
-  "lastHeartbeat": "2026-03-26T21:00:23+08:00",
-  "heartbeatCount": 125,
+  "lastHeartbeat": "2026-03-26T21:30:22+08:00",
+  "heartbeatCount": 126,
   "dailyStats": {
     "date": "2026-03-26",
     "tasksCompleted": 6,
     "skillsLearned": 1,
     "errorsEncountered": 0,
-    "tokensUsed": 6000,
-    "notes": "系统维护日; Remote CDP 配置完成; 调试 Chrome 启动问题"
+    "tokensUsed": 6500,
+    "notes": "系统维护日; Remote CDP 配置完成; 调试 WSL2 网络连接 (方案 B)"
   },
   "tokenBudget": {
     "daily": {
