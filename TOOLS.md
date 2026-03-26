@@ -37,7 +37,7 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 | 工具 | 状态 | 用途 |
 |:---|:---:|:---|
 | `exec` | ✅ | 执行 shell 命令 |
-| `browser` | ✅ | 浏览器控制 |
+| `browser` | ⚠️ | WSL2 无法自动检测，需用 exec 调用 Windows Chrome |
 | `web_fetch` | ✅ | 网页内容获取 |
 | `message` | ✅ | 消息发送 |
 | `sessions_*` | ✅ | 会话管理 |
