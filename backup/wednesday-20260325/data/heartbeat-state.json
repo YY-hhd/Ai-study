@@ -1,20 +1,20 @@
 {
   "lastChecks": {
-    "email": 1774514640,
-    "calendar": 1774514640,
-    "weather": 1774514640,
-    "notifications": 1774514640,
-    "modelHealth": 1774514640
+    "email": 1774335600,
+    "calendar": 1774335600,
+    "weather": 1774335600,
+    "notifications": 1774335600,
+    "modelHealth": 1774335600
   },
-  "lastHeartbeat": "2026-03-26T16:44:00+08:00",
-  "heartbeatCount": 116,
+  "lastHeartbeat": "2026-03-25T14:00:00+08:00",
+  "heartbeatCount": 113,
   "dailyStats": {
-    "date": "2026-03-26",
-    "tasksCompleted": 0,
+    "date": "2026-03-25",
+    "tasksCompleted": 2,
     "skillsLearned": 0,
     "errorsEncountered": 0,
     "tokensUsed": 0,
-    "notes": "系统维护日; 无用户交互 (连续第 5 天)"
+    "notes": "系统维护日; 每日进化报告已生成; 无用户交互 (连续第 4 天)"
   },
   "tokenBudget": {
     "daily": {
@@ -22,8 +22,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0,
-      "lastReset": "2026-03-26T00:00:00Z",
-      "nextReset": "2026-03-27T00:00:00Z"
+      "lastReset": "2026-03-25T00:00:00Z",
+      "nextReset": "2026-03-26T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
@@ -132,14 +132,14 @@
     "lastBackup": "2026-03-25T13:57:38+08:00",
     "backupCount": 15,
     "rotationDays": 7,
-    "lastCheck": "2026-03-26T16:44:00+08:00",
+    "lastCheck": "2026-03-25T13:57:38+08:00",
     "backupTag": "backup-2026-03-25-1357",
     "filesChanged": 2,
     "triggerReason": "24h time threshold met (29 hours since last backup)",
-    "nextCheck": "2026-03-26T17:44:00+08:00",
-    "hoursSinceBackup": 27,
-    "backupNeeded": true,
-    "checkReason": "Backup needed - 27 hours since last backup (24h threshold exceeded); backup will be triggered",
+    "nextCheck": "2026-03-25T14:57:38+08:00",
+    "hoursSinceBackup": 0,
+    "backupNeeded": false,
+    "checkReason": "Backup completed - 24h threshold triggered; next check in 1 hour",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
@@ -148,10 +148,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-26T16:44:00+08:00",
+    "lastCheck": "2026-03-25T13:58:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 31,
-    "nextCheck": "2026-03-26T22:44:00+08:00"
+    "checkCount": 30,
+    "nextCheck": "2026-03-25T19:58:00+08:00"
   }
 }

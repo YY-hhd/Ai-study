@@ -1,20 +1,20 @@
 {
   "lastChecks": {
-    "email": 1774514640,
-    "calendar": 1774514640,
-    "weather": 1774514640,
-    "notifications": 1774514640,
-    "modelHealth": 1774514640
+    "email": 1774274414,
+    "calendar": 1774274414,
+    "weather": 1774274414,
+    "notifications": 1774274414,
+    "modelHealth": 1774274414
   },
-  "lastHeartbeat": "2026-03-26T16:44:00+08:00",
-  "heartbeatCount": 116,
+  "lastHeartbeat": "2026-03-23T22:00:14+08:00",
+  "heartbeatCount": 110,
   "dailyStats": {
-    "date": "2026-03-26",
-    "tasksCompleted": 0,
+    "date": "2026-03-24",
+    "tasksCompleted": 1,
     "skillsLearned": 0,
     "errorsEncountered": 0,
     "tokensUsed": 0,
-    "notes": "系统维护日; 无用户交互 (连续第 5 天)"
+    "notes": "系统维护日; 智能备份已执行 (43h 阈值触发)"
   },
   "tokenBudget": {
     "daily": {
@@ -22,8 +22,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0,
-      "lastReset": "2026-03-26T00:00:00Z",
-      "nextReset": "2026-03-27T00:00:00Z"
+      "lastReset": "2026-03-23T00:00:00Z",
+      "nextReset": "2026-03-24T00:00:00Z"
     },
     "monthly": {
       "limit": 1000000,
@@ -39,12 +39,6 @@
     }
   },
   "evolutionReports": [
-    {
-      "date": "2026-03-25",
-      "path": "data/evolution-reports/2026-03-25.md",
-      "generatedAt": "2026-03-25T13:58:27+08:00",
-      "skillsIdentified": 0
-    },
     {
       "date": "2026-03-23",
       "path": "data/evolution-reports/2026-03-23.md",
@@ -129,29 +123,29 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-25T13:57:38+08:00",
-    "backupCount": 15,
+    "lastBackup": "2026-03-24T08:56:59+08:00",
+    "backupCount": 14,
     "rotationDays": 7,
-    "lastCheck": "2026-03-26T16:44:00+08:00",
-    "backupTag": "backup-2026-03-25-1357",
-    "filesChanged": 2,
-    "triggerReason": "24h time threshold met (29 hours since last backup)",
-    "nextCheck": "2026-03-26T17:44:00+08:00",
-    "hoursSinceBackup": 27,
-    "backupNeeded": true,
-    "checkReason": "Backup needed - 27 hours since last backup (24h threshold exceeded); backup will be triggered",
+    "lastCheck": "2026-03-24T08:56:59+08:00",
+    "backupTag": "backup-2026-03-24-0856",
+    "filesChanged": 4,
+    "triggerReason": "24h time threshold met (43 hours since last backup)",
+    "nextCheck": "2026-03-24T09:56:59+08:00",
+    "hoursSinceBackup": 0,
+    "backupNeeded": false,
+    "checkReason": "Backup completed - 4 files changed (MEMORY.md, memory/2026-03-22.md, memory/2026-03-23.md, learning/python-day3-data-structures.md); 43h since last backup exceeded 24h threshold",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/wednesday-20260325",
-      "backupSize": "~500K"
+      "lastBackupFolder": "backup/tuesday-20260324",
+      "backupSize": "~293K"
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-26T16:44:00+08:00",
+    "lastCheck": "2026-03-24T08:57:41+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 31,
-    "nextCheck": "2026-03-26T22:44:00+08:00"
+    "checkCount": 27,
+    "nextCheck": "2026-03-24T14:57:41+08:00"
   }
 }
