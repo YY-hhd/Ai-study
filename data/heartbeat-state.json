@@ -10,11 +10,11 @@
   "heartbeatCount": 117,
   "dailyStats": {
     "date": "2026-03-26",
-    "tasksCompleted": 0,
-    "skillsLearned": 0,
+    "tasksCompleted": 4,
+    "skillsLearned": 1,
     "errorsEncountered": 0,
-    "tokensUsed": 0,
-    "notes": "系统维护日; 无用户交互 (连续第 5 天)"
+    "tokensUsed": 2000,
+    "notes": "系统维护日; 用户交互恢复; 浏览器配置问题解决; 网关重启成功"
   },
   "tokenBudget": {
     "daily": {
@@ -39,6 +39,12 @@
     }
   },
   "evolutionReports": [
+    {
+      "date": "2026-03-26",
+      "path": "data/evolution-reports/2026-03-26.md",
+      "generatedAt": "2026-03-26T17:15:00+08:00",
+      "skillsIdentified": 1
+    },
     {
       "date": "2026-03-25",
       "path": "data/evolution-reports/2026-03-25.md",
