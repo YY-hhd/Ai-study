@@ -129,21 +129,21 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-25T13:57:38+08:00",
-    "backupCount": 15,
+    "lastBackup": "2026-03-26T16:45:00+08:00",
+    "backupCount": 16,
     "rotationDays": 7,
-    "lastCheck": "2026-03-26T16:44:00+08:00",
-    "backupTag": "backup-2026-03-25-1357",
-    "filesChanged": 2,
-    "triggerReason": "24h time threshold met (29 hours since last backup)",
-    "nextCheck": "2026-03-26T17:44:00+08:00",
-    "hoursSinceBackup": 27,
-    "backupNeeded": true,
-    "checkReason": "Backup needed - 27 hours since last backup (24h threshold exceeded); backup will be triggered",
+    "lastCheck": "2026-03-26T16:45:00+08:00",
+    "backupTag": "backup-2026-03-26-1645",
+    "filesChanged": 110,
+    "triggerReason": "24h time threshold met (27 hours since last backup)",
+    "nextCheck": "2026-03-26T17:45:00+08:00",
+    "hoursSinceBackup": 0,
+    "backupNeeded": false,
+    "checkReason": "Backup completed successfully - committed 110 files and pushed to origin",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/wednesday-20260325",
+      "lastBackupFolder": "backup/thursday-20260326",
       "backupSize": "~500K"
     }
   },
