@@ -1,10 +1,10 @@
 {
-  "note": "添加 Ollama 本地模型 Provider 配置",
+  "note": "添加 Ollama 本地模型 Provider 配置 (WSL2 访问 Windows 主机)",
   "patch": {
     "models": {
       "providers": {
         "ollama": {
-          "baseUrl": "http://localhost:11434/v1",
+          "baseUrl": "http://10.255.255.254:11434/v1",
           "api": "openai-completions",
           "models": [
             {
