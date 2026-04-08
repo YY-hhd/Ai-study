@@ -1,0 +1,75 @@
+{
+  "note": "添加 Ollama 本地模型 Provider 配置",
+  "patch": {
+    "models": {
+      "providers": {
+        "ollama": {
+          "baseUrl": "http://localhost:11434/v1",
+          "api": "openai-completions",
+          "models": [
+            {
+              "id": "qwen2.5:7b",
+              "name": "Ollama Qwen2.5 7B",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": ["text"],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 32768,
+              "maxTokens": 4096
+            },
+            {
+              "id": "qwen2.5:14b",
+              "name": "Ollama Qwen2.5 14B",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": ["text"],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 32768,
+              "maxTokens": 4096
+            },
+            {
+              "id": "llama3.2:3b",
+              "name": "Ollama Llama3.2 3B",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": ["text"],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 8192,
+              "maxTokens": 2048
+            }
+          ]
+        }
+      }
+    },
+    "agents": {
+      "defaults": {
+        "models": {
+          "ollama/qwen2.5:7b": {
+            "alias": "ollama-local-7b"
+          },
+          "ollama/qwen2.5:14b": {
+            "alias": "ollama-local-14b"
+          },
+          "ollama/llama3.2:3b": {
+            "alias": "ollama-local-3b"
+          }
+        }
+      }
+    }
+  }
+}
