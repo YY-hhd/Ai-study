@@ -4,42 +4,27 @@
     "models": {
       "providers": {
         "ollama": {
-          "baseUrl": "http://10.255.255.254:11434/v1",
+          "baseUrl": "http://192.168.0.106:11434/v1",
           "api": "openai-completions",
           "models": [
             {
-              "id": "qwen2.5:7b",
-              "name": "Ollama Qwen2.5 7B",
-              "api": "openai-completions",
-              "reasoning": false,
-              "input": ["text"],
-              "cost": {
-                "input": 0,
-                "output": 0,
-                "cacheRead": 0,
-                "cacheWrite": 0
-              },
-              "contextWindow": 32768,
-              "maxTokens": 4096
-            },
-            {
-              "id": "qwen2.5:14b",
-              "name": "Ollama Qwen2.5 14B",
-              "api": "openai-completions",
-              "reasoning": false,
-              "input": ["text"],
-              "cost": {
-                "input": 0,
-                "output": 0,
-                "cacheRead": 0,
-                "cacheWrite": 0
-              },
-              "contextWindow": 32768,
-              "maxTokens": 4096
-            },
-            {
               "id": "llama3.2:3b",
               "name": "Ollama Llama3.2 3B",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": ["text"],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 8192,
+              "maxTokens": 2048
+            },
+            {
+              "id": "deepseek-r1:1.5b",
+              "name": "Ollama DeepSeek R1 1.5B",
               "api": "openai-completions",
               "reasoning": false,
               "input": ["text"],
@@ -59,14 +44,11 @@
     "agents": {
       "defaults": {
         "models": {
-          "ollama/qwen2.5:7b": {
-            "alias": "ollama-local-7b"
-          },
-          "ollama/qwen2.5:14b": {
-            "alias": "ollama-local-14b"
-          },
           "ollama/llama3.2:3b": {
             "alias": "ollama-local-3b"
+          },
+          "ollama/deepseek-r1:1.5b": {
+            "alias": "ollama-local-1.5b"
           }
         }
       }
