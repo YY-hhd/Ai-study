@@ -1,10 +1,10 @@
 {
   "lastChecks": {
-    "email": 1775384443,
-    "calendar": 1775384443,
-    "weather": 1775384443,
-    "notifications": 1775384443,
-    "modelHealth": 1775401858
+    "email": 1744095900,
+    "calendar": 1744095900,
+    "weather": 1744095900,
+    "notifications": 1744095900,
+    "modelHealth": 1744095900
   },
   "lastHeartbeat": "2026-04-08T13:58:52+08:00",
   "heartbeatCount": 142,
@@ -153,22 +153,22 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-04-03T13:56:54+08:00",
-    "backupCount": 18,
+    "lastBackup": "2026-04-08T14:05:00+08:00",
+    "backupCount": 19,
     "rotationDays": 7,
-    "lastCheck": "2026-04-03T17:04:48+08:00",
-    "backupTag": "backup-2026-04-03-1356",
-    "filesChanged": 2,
-    "triggerReason": "24h time threshold met (144 hours since last backup)",
-    "nextCheck": "2026-04-03T18:04:48+08:00",
-    "hoursSinceBackup": 3,
+    "lastCheck": "2026-04-08T14:05:00+08:00",
+    "backupTag": "backup-2026-04-08-1405",
+    "filesChanged": 0,
+    "triggerReason": "24h time threshold met (120 hours since last backup)",
+    "nextCheck": "2026-04-08T15:05:00+08:00",
+    "hoursSinceBackup": 0,
     "backupNeeded": false,
-    "checkReason": "No backup needed - only 3 hours since last backup (threshold: 24h); workspace stable",
+    "checkReason": "Backup completed successfully - 7-day rotation (Wednesday)",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/friday-20260403",
-      "backupSize": "~2.2M"
+      "lastBackupFolder": "backup/wednesday-20260408",
+      "backupSize": "~184K"
     }
   },
   "modelHealth": {
