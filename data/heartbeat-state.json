@@ -172,10 +172,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-04-08T17:00:00+08:00",
+    "lastCheck": "2026-04-08T18:33:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 40,
-    "nextCheck": "2026-04-08T23:00:00+08:00"
+    "checkCount": 41,
+    "nextCheck": "2026-04-09T00:33:00+08:00"
   }
 }
