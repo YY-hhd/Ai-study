@@ -6,8 +6,8 @@
     "notifications": 1744096140,
     "modelHealth": 1744096583
   },
-  "lastHeartbeat": "2026-04-08T15:00:00+08:00",
-  "heartbeatCount": 146,
+  "lastHeartbeat": "2026-04-08T16:00:00+08:00",
+  "heartbeatCount": 148,
   "dailyStats": {
     "date": "2026-04-08",
     "tasksCompleted": 0,
@@ -172,10 +172,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-04-08T14:09:43+08:00",
+    "lastCheck": "2026-04-08T16:00:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 37,
-    "nextCheck": "2026-04-08T20:09:43+08:00"
+    "checkCount": 38,
+    "nextCheck": "2026-04-08T22:00:00+08:00"
   }
 }
