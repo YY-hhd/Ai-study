@@ -1,20 +1,20 @@
 {
   "lastChecks": {
-    "email": 1774539032,
-    "calendar": 1774539032,
-    "weather": 1774539032,
-    "notifications": 1774539032,
-    "modelHealth": 1774539032
+    "email": 1775384443,
+    "calendar": 1775384443,
+    "weather": 1775384443,
+    "notifications": 1775384443,
+    "modelHealth": 1775401858
   },
-  "lastHeartbeat": "2026-03-26T23:30:32+08:00",
-  "heartbeatCount": 130,
+  "lastHeartbeat": "2026-04-08T13:58:52+08:00",
+  "heartbeatCount": 142,
   "dailyStats": {
-    "date": "2026-03-26",
-    "tasksCompleted": 10,
-    "skillsLearned": 3,
+    "date": "2026-04-08",
+    "tasksCompleted": 0,
+    "skillsLearned": 0,
     "errorsEncountered": 0,
-    "tokensUsed": 9500,
-    "notes": "系统维护日; Remote CDP 配置完成; Browser 工具演示完成; 仗剑传说官网信息收集; 每日进化报告生成"
+    "tokensUsed": 0,
+    "notes": "系统维护日（连续第 5 天无用户交互）; 每日进化报告生成; 系统稳定运行 28+ 天"
   },
   "tokenBudget": {
     "daily": {
@@ -39,6 +39,18 @@
     }
   },
   "evolutionReports": [
+    {
+      "date": "2026-04-08",
+      "path": "data/evolution-reports/2026-04-08.md",
+      "generatedAt": "2026-04-08T13:58:52+08:00",
+      "skillsIdentified": 0
+    },
+    {
+      "date": "2026-04-03",
+      "path": "data/evolution-reports/2026-04-03.md",
+      "generatedAt": "2026-04-03T13:56:05+08:00",
+      "skillsIdentified": 0
+    },
     {
       "date": "2026-03-26",
       "path": "data/evolution-reports/2026-03-26-final.md",
@@ -141,29 +153,29 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-03-28T21:04:49+08:00",
-    "backupCount": 17,
+    "lastBackup": "2026-04-03T13:56:54+08:00",
+    "backupCount": 18,
     "rotationDays": 7,
-    "lastCheck": "2026-03-28T21:04:49+08:00",
-    "backupTag": "backup-2026-03-28-2104",
-    "filesChanged": 0,
-    "triggerReason": "24h time threshold met (52 hours since last backup)",
-    "nextCheck": "2026-03-29T00:04:49+08:00",
-    "hoursSinceBackup": 0,
-    "backupNeeded": true,
-    "checkReason": "Backup executed - 52 hours since last backup exceeded 24h threshold; workspace stable",
+    "lastCheck": "2026-04-03T17:04:48+08:00",
+    "backupTag": "backup-2026-04-03-1356",
+    "filesChanged": 2,
+    "triggerReason": "24h time threshold met (144 hours since last backup)",
+    "nextCheck": "2026-04-03T18:04:48+08:00",
+    "hoursSinceBackup": 3,
+    "backupNeeded": false,
+    "checkReason": "No backup needed - only 3 hours since last backup (threshold: 24h); workspace stable",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/saturday-20260328",
-      "backupSize": "~500K"
+      "lastBackupFolder": "backup/friday-20260403",
+      "backupSize": "~2.2M"
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-03-26T18:00:30+08:00",
+    "lastCheck": "2026-04-03T13:57:17+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 34,
-    "nextCheck": "2026-03-27T00:00:30+08:00"
+    "checkCount": 35,
+    "nextCheck": "2026-04-03T19:57:17+08:00"
   }
 }
