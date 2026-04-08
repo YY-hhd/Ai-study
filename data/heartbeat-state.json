@@ -4,10 +4,10 @@
     "calendar": 1744096140,
     "weather": 1744096140,
     "notifications": 1744096140,
-    "modelHealth": 1744095900
+    "modelHealth": 1744096583
   },
-  "lastHeartbeat": "2026-04-08T14:09:02+08:00",
-  "heartbeatCount": 143,
+  "lastHeartbeat": "2026-04-08T14:09:43+08:00",
+  "heartbeatCount": 144,
   "dailyStats": {
     "date": "2026-04-08",
     "tasksCompleted": 0,
@@ -172,10 +172,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-04-08T14:05:00+08:00",
+    "lastCheck": "2026-04-08T14:09:43+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 36,
-    "nextCheck": "2026-04-08T20:05:00+08:00"
+    "checkCount": 37,
+    "nextCheck": "2026-04-08T20:09:43+08:00"
   }
 }
