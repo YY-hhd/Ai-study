@@ -1,0 +1,17 @@
+{
+  "name": "熔岩矿道",
+  "description": "火山主城左侧，金矿/铜矿密集区，3 分钟刷新",
+  "refresh_time": 180,
+  "waypoints": [
+    {"x": 0.25, "y": 0.35, "action": "teleport", "note": "传送点"},
+    {"x": 0.30, "y": 0.40, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.35, "y": 0.42, "action": "collect", "ore_type": "铜矿"},
+    {"x": 0.40, "y": 0.38, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.45, "y": 0.35, "action": "collect", "ore_type": "铜矿"},
+    {"x": 0.50, "y": 0.40, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.48, "y": 0.50, "action": "collect", "ore_type": "铜矿"},
+    {"x": 0.42, "y": 0.55, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.35, "y": 0.52, "action": "collect", "ore_type": "铜矿"},
+    {"x": 0.30, "y": 0.45, "action": "collect", "ore_type": "金矿"}
+  ]
+}

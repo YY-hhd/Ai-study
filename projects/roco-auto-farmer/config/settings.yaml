@@ -1,0 +1,31 @@
+# 洛克王国自动采集配置
+
+device:
+  type: "emulator"  # emulator / android / cloud
+  emulator_id: "emulator-5554"
+  resolution: [1920, 1080]
+  
+vision:
+  model: "yolov8n"
+  confidence: 0.6
+  use_template_fallback: true
+
+mount:
+  preferred: "罗隐"
+  alternatives: ["魔力猫", "雪巨人", "月牙雪熊"]
+  
+route:
+  map: "lava_mine"
+  loop_count: 10
+  auto_switch_map: true
+  
+team:
+  enable: false
+  partner_device: "emulator-5555"
+  role: "leader"
+  
+safety:
+  anti_detect: true
+  random_delay: [0.5, 2.0]
+  break_interval: 300
+  max_runtime: 7200

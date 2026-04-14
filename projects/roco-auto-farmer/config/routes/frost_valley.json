@@ -1,0 +1,15 @@
+{
+  "name": "寒霜裂谷",
+  "description": "雪山营地正下方，冰晶锥矿 + 金矿",
+  "refresh_time": 240,
+  "waypoints": [
+    {"x": 0.50, "y": 0.30, "action": "teleport", "note": "雪山营地传送点"},
+    {"x": 0.45, "y": 0.40, "action": "collect", "ore_type": "冰晶锥矿"},
+    {"x": 0.50, "y": 0.45, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.55, "y": 0.42, "action": "collect", "ore_type": "冰晶锥矿"},
+    {"x": 0.52, "y": 0.50, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.48, "y": 0.55, "action": "collect", "ore_type": "冰晶锥矿"},
+    {"x": 0.55, "y": 0.58, "action": "collect", "ore_type": "金矿"},
+    {"x": 0.50, "y": 0.62, "action": "collect", "ore_type": "冰晶锥矿"}
+  ]
+}
