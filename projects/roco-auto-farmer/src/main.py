@@ -62,8 +62,16 @@ class AutoFarmer:
         logger.info(f"📍 采集地图：{self.config['route']['map']}")
         logger.info(f"🔄 循环次数：{self.config['route']['loop_count']}")
         
+        # 显示防检测设置
+        safety = self.config.get('safety', {})
+        if safety.get('anti_detect', False):
+            logger.info("🛡️  防检测模式：已启用")
+            logger.info(f"   • 随机延迟：{safety.get('random_delay', {}).get('min', 0.5)}-{safety.get('random_delay', {}).get('max', 2.0)}秒")
+            logger.info(f"   • 定时休息：每{int(safety.get('break_interval', 300)/60)}分钟")
+        
         self.running = True
         self._register_signals()
+        self.scheduler.start()  # 启动调度器
         
         try:
             self._run_loop()
@@ -71,6 +79,7 @@ class AutoFarmer:
             logger.info("⏹️  用户中断，停止采集")
         finally:
             self.stop()
+            self.scheduler.print_summary()  # 打印统计摘要
     
     def stop(self):
         """停止采集"""
@@ -88,13 +97,17 @@ class AutoFarmer:
         self.running = False
     
     def _run_loop(self):
-        """主循环"""
-        loop_count = 0
+        """主循环 - 增强防检测版"""
         max_loops = self.config['route']['loop_count']
         
-        while self.running and (max_loops == 0 or loop_count < max_loops):
-            loop_count += 1
-            logger.info(f"🔄 开始第 {loop_count}/{max_loops} 轮采集")
+        while self.running:
+            # 检查是否应该停止（运行时长限制）
+            if self.scheduler.should_stop():
+                logger.info("⏰ 达到运行限制，停止采集")
+                break
+            
+            self.scheduler.record_loop()
+            logger.info(f"🔄 开始第 {self.scheduler.loop_count}/{max_loops} 轮采集")
             
             # 获取最优路线
             route = self.planner.get_optimal_route(collected=set())
@@ -106,19 +119,17 @@ class AutoFarmer:
                 # 执行航点动作
                 self._execute_waypoint(waypoint)
                 
-                # 安全延迟
-                if self.config['safety']['anti_detect']:
-                    import random
-                    delay = random.uniform(*self.config['safety']['random_delay'])
-                    time.sleep(delay)
+                # 应用随机延迟（防检测）
+                self.scheduler.apply_random_delay(f"航点 {waypoint.action}")
+                
+                # 随机暂停（模拟用户查看）
+                self.scheduler.apply_random_pause()
             
-            # 检查是否需要休息
-            if loop_count % 5 == 0:
-                break_time = self.config['safety']['break_interval']
-                logger.info(f"😴 休息 {break_time} 秒...")
-                time.sleep(break_time)
+            # 检查是否需要定时休息（每 5 分钟）
+            if self.scheduler.should_break():
+                self.scheduler.take_break()
         
-        logger.info(f"✅ 完成 {loop_count} 轮采集")
+        logger.info(f"✅ 完成 {self.scheduler.loop_count} 轮采集")
     
     def _execute_waypoint(self, waypoint):
         """执行航点动作"""
@@ -166,8 +177,10 @@ class AutoFarmer:
             if target:
                 logger.info(f"✨ 发现 {ore_type}，置信度：{target['confidence']:.2f}")
                 # 骑宠冲撞采集
-                self.mount_rush.rush_to_ore(target['center'])
-                time.sleep(1.0)
+                success = self.mount_rush.rush_to_ore(target['center'])
+                if success:
+                    self.scheduler.record_collection(ore_type, 1)
+                time.sleep(1.0 / self.scheduler.speed_factor)  # 应用速度波动
             else:
                 logger.warning(f"⚠️  未找到 {ore_type}，继续下一个点")
         else:

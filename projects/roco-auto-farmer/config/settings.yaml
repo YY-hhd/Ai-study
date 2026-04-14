@@ -25,7 +25,40 @@ team:
   role: "leader"
   
 safety:
+  # ========== 防检测模式 ==========
   anti_detect: true
-  random_delay: [0.5, 2.0]
-  break_interval: 300
-  max_runtime: 7200
+  
+  # 随机延迟设置 (秒)
+  # 每次操作后随机等待，模拟人工操作
+  random_delay:
+    min: 0.5    # 最小延迟
+    max: 2.0    # 最大延迟
+    enabled: true
+  
+  # ========== 定时休息设置 ==========
+  # 每 5 分钟强制休息，避免长时间连续操作
+  break_interval: 300  # 300 秒 = 5 分钟
+  break_duration: 60   # 每次休息 60 秒
+  
+  # 智能休息提醒
+  break_reminder: true
+  
+  # ========== 运行限制 ==========
+  max_runtime: 7200    # 最大运行 2 小时
+  max_loops_per_hour: 12  # 每小时最多 12 轮
+  
+  # ========== 人性化设置 ==========
+  # 随机暂停 (模拟用户查看/操作)
+  random_pause:
+    enabled: true
+    probability: 0.1   # 10% 概率触发
+    duration: [3, 10]  # 暂停 3-10 秒
+  
+  # 操作速度变化 (模拟不同状态)
+  speed_variation:
+    enabled: true
+    base_speed: 1.0
+    variation: 0.2     # ±20% 速度波动
+  
+  # 日志记录 (用于审计)
+  log_actions: true
