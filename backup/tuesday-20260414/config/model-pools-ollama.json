@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "budget": {
+    "daily": {
+      "limit": 50000,
+      "used": 0,
+      "resetTime": "00:00"
+    },
+    "monthly": {
+      "limit": 1000000,
+      "used": 0,
+      "resetDay": 1
+    },
+    "alertThreshold": 0.8
+  },
+  "pools": {
+    "local": {
+      "name": "本地池",
+      "primary": "ollama/qwen2.5:7b",
+      "fallback": "bailian/qwen-turbo",
+      "description": "本地运行 - 零成本、隐私安全",
+      "costLevel": "free",
+      "maxTokens": 4000
+    },
+    "fast": {
+      "name": "高速池",
+      "primary": "ollama/llama3.2:3b",
+      "fallback": "bailian/qwen-turbo",
+      "description": "快速响应 - 优先本地",
+      "costLevel": "low",
+      "maxTokens": 2000
+    },
+    "smart": {
+      "name": "智能池",
+      "primary": "ollama/qwen2.5:14b",
+      "fallback": "bailian/qwen-plus",
+      "description": "复杂推理 - 优先本地",
+      "costLevel": "medium",
+      "maxTokens": 8000
+    },
+    "text": {
+      "name": "文本池",
+      "primary": "bailian/qwen-plus",
+      "fallback": "bailian/qwen-turbo",
+      "description": "长文本处理 - 云端",
+      "costLevel": "medium",
+      "maxTokens": 10000
+    },
+    "vision": {
+      "name": "视觉池",
+      "primary": "bailian/qwen-vl-plus",
+      "fallback": "bailian/qwen-turbo",
+      "description": "图片/视频 - 云端",
+      "costLevel": "high",
+      "maxTokens": 5000
+    }
+  },
+  "healthCheck": {
+    "interval": "6h",
+    "timeout": 5000,
+    "retries": 3
+  },
+  "routing": {
+    "rules": [
+      {
+        "keywords": ["快速", "简单", "闲聊", "quick", "simple", "hello", "hi"],
+        "pool": "fast"
+      },
+      {
+        "keywords": ["分析", "推理", "编程", "代码", "analyze", "reason", "code", "debug"],
+        "pool": "smart"
+      },
+      {
+        "keywords": ["文档", "长文本", "写作", "翻译", "document", "write", "translate", "article"],
+        "pool": "text"
+      },
+      {
+        "keywords": ["图片", "视频", "看图", "图像", "image", "video", "vision", "draw"],
+        "pool": "vision"
+      }
+    ],
+    "localFirst": true,
+    "budgetAware": true,
+    "budgetRules": [
+      {
+        "condition": "dailyUsed > 0.8 * dailyLimit",
+        "action": "forceUsePool",
+        "targetPool": "local"
+      },
+      {
+        "condition": "dailyUsed > 0.95 * dailyLimit",
+        "action": "alertUser"
+      }
+    ]
+  },
+  "compression": {
+    "enabled": true,
+    "triggerTokens": 3000,
+    "triggerRounds": 8,
+    "targetSavings": 0.3
+  }
+}

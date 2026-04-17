@@ -1,0 +1,18 @@
+{
+  "monthlyLimit": 1000,
+  "resetDay": 1,
+  "warningThresholds": {
+    "notice": 50,
+    "warning": 80,
+    "critical": 95
+  },
+  "notifications": {
+    "enabled": true,
+    "channels": ["webchat"],
+    "message": "🚨 Exa API 额度警告：当前使用 {percentage}%，剩余 {remaining} 次。建议切换到 web_fetch 或手动搜索方案。"
+  },
+  "autoDisable": {
+    "enabled": false,
+    "threshold": 100
+  }
+}

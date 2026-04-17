@@ -1,0 +1,57 @@
+{
+  "note": "添加 Ollama 本地模型 Provider 配置 (WSL2 访问 Windows 主机)",
+  "patch": {
+    "models": {
+      "providers": {
+        "ollama": {
+          "baseUrl": "http://192.168.0.106:11434/v1",
+          "api": "openai-completions",
+          "models": [
+            {
+              "id": "llama3.2:3b",
+              "name": "Ollama Llama3.2 3B",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": ["text"],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 8192,
+              "maxTokens": 2048
+            },
+            {
+              "id": "deepseek-r1:1.5b",
+              "name": "Ollama DeepSeek R1 1.5B",
+              "api": "openai-completions",
+              "reasoning": false,
+              "input": ["text"],
+              "cost": {
+                "input": 0,
+                "output": 0,
+                "cacheRead": 0,
+                "cacheWrite": 0
+              },
+              "contextWindow": 8192,
+              "maxTokens": 2048
+            }
+          ]
+        }
+      }
+    },
+    "agents": {
+      "defaults": {
+        "models": {
+          "ollama/llama3.2:3b": {
+            "alias": "ollama-local-3b"
+          },
+          "ollama/deepseek-r1:1.5b": {
+            "alias": "ollama-local-1.5b"
+          }
+        }
+      }
+    }
+  }
+}

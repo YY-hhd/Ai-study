@@ -165,22 +165,22 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-04-17T22:38:00+08:00",
-    "backupCount": 21,
+    "lastBackup": "2026-04-14T21:04:00+08:00",
+    "backupCount": 20,
     "rotationDays": 7,
-    "lastCheck": "2026-04-17T22:38:00+08:00",
-    "backupTag": "backup-2026-04-17-2238",
-    "filesChanged": 6,
-    "triggerReason": "24h threshold exceeded (3 days since last backup)",
-    "nextCheck": "2026-04-18T22:38:00+08:00",
-    "hoursSinceBackup": 0,
+    "lastCheck": "2026-04-17T22:36:00+08:00",
+    "backupTag": "backup-2026-04-14-2104",
+    "filesChanged": 7,
+    "triggerReason": "24h threshold exceeded (6 days since last backup)",
+    "nextCheck": "2026-04-18T21:04:00+08:00",
+    "hoursSinceBackup": 73,
     "backupNeeded": false,
-    "checkReason": "Backup completed - Friday rotation backup created",
+    "checkReason": "3 days since last backup - within 7-day rotation window",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/friday-20260417",
-      "backupSize": "~388K"
+      "lastBackupFolder": "backup/tuesday-20260414",
+      "backupSize": "~324K"
     }
   },
   "modelHealth": {

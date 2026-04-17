@@ -1,0 +1,155 @@
+# WeGame 专用配置文件 - 平衡安全与效率
+# 适用于：小号测试、普通号谨慎使用
+# 风险等级：🟡 中等 (不可用于主号)
+
+# ========== 游戏窗口配置 ==========
+game:
+  name: "洛克王国世界"
+  platform: "wegame"
+  
+  # 窗口设置
+  window:
+    # 窗口标题 (用 Spy++ 或任务管理器确认真实标题)
+    title: "洛克王国世界"
+    # 备用标题 (WeGame 可能显示为)
+    title_alternatives:
+      - "WeGame"
+      - "洛克王国"
+    
+    # 分辨率 (必须与游戏内设置一致)
+    resolution:
+      width: 1280
+      height: 720
+      fullscreen: false
+    
+    # 窗口偏移 (WeGame 边框补偿)
+    offset:
+      x: 0      # 左边界偏移
+      y: 30     # 标题栏高度
+    
+    # 窗口定位容差 (像素)
+    tolerance: 10
+  
+  # 图像识别配置
+  recognition:
+    # 模板匹配阈值 (0-1，越高越严格)
+    threshold: 0.85
+    
+    # 截图区域 (相对窗口，避免 UI 干扰)
+    roi:
+      x: 0
+      y: 100      # 跳过顶部 UI
+      width: 1280
+      height: 620
+    
+    # 截图格式
+    format: "png"
+    quality: 90
+
+# ========== 安全防检测配置 ==========
+safety:
+  # 防检测总开关
+  anti_detect: true
+  
+  # --- 随机延迟 (关键操作后) ---
+  random_delay:
+    enabled: true
+    min: 1.0      # 最小 1 秒
+    max: 3.0      # 最大 3 秒
+  
+  # --- 定时休息 (避免连续运行) ---
+  break:
+    enabled: true
+    interval: 400     # 每 400 秒 (约 6-7 分钟)
+    duration: 60      # 休息 60 秒
+    reminder: false   # 关闭提醒日志
+  
+  # --- 随机暂停 (模拟用户查看) ---
+  random_pause:
+    enabled: true
+    probability: 0.15   # 15% 概率
+    duration:
+      min: 5
+      max: 12
+  
+  # --- 操作速度波动 ---
+  speed_variation:
+    enabled: true
+    base: 1.0
+    variation: 0.15     # ±15%
+  
+  # --- 运行限制 ---
+  limits:
+    max_runtime: 7200       # 最大运行 2 小时
+    max_loops_per_hour: 10  # 每小时≤10 轮
+    max_daily_minutes: 60   # 每日≤60 分钟
+  
+  # --- 允许运行时段 (避开检测高峰) ---
+  allowed_hours:
+    - 2   # 凌晨 2 点
+    - 3
+    - 4
+    - 5
+    - 6   # 早上 6 点
+  
+  # --- 日志配置 ---
+  log:
+    enabled: true
+    level: "INFO"     # INFO/WARNING/ERROR
+    actions: false    # 不记录每个动作 (减少特征)
+    screenshot_on_error: true
+
+# ========== 任务配置 ==========
+tasks:
+  # 默认采集地图
+  default_map: "lava_mine"  # 火山矿场
+  
+  # 任务队列
+  queue:
+    - map: "lava_mine"
+      loops: 5
+      priority: 1
+    - map: "forest_herb"
+      loops: 3
+      priority: 2
+  
+  # 失败重试
+  retry:
+    enabled: true
+    max_attempts: 3
+    delay: 10
+
+# ========== 通知配置 ==========
+notification:
+  enabled: false  # 小号测试关闭通知
+  
+  # 通知事件
+  events:
+    - "error"
+    - "break_start"
+    - "daily_limit_reached"
+  
+  # 通知方式 (预留)
+  channels:
+    - type: "log"
+    # - type: "wechat"
+    # - type: "email"
+
+# ========== 高级配置 ==========
+advanced:
+  # ADB 控制 (模拟器专用，WeGame 禁用)
+  adb:
+    enabled: false
+    host: "127.0.0.1"
+    port: 7555
+  
+  # 性能模式
+  performance:
+    low_cpu: true       # 降低 CPU 占用
+    background_friendly: true  # 后台友好
+  
+  # 紧急停止
+  emergency_stop:
+    enabled: true
+    trigger: "F12"      # 热键停止
+    save_state: true

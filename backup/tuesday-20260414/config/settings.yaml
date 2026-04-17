@@ -1,0 +1,62 @@
+# 洛克王国自动采集配置
+
+device:
+  type: "emulator"  # emulator / android / cloud
+  emulator_id: "emulator-5554"
+  resolution: [1920, 1080]
+  
+vision:
+  model: "yolov8n"
+  confidence: 0.6
+  use_template_fallback: true
+
+mount:
+  preferred: "罗隐"
+  alternatives: ["魔力猫", "雪巨人", "月牙雪熊"]
+  
+route:
+  map: "lava_mine"
+  loop_count: 10
+  auto_switch_map: true
+  
+team:
+  enable: false
+  partner_device: "emulator-5555"
+  role: "leader"
+  
+safety:
+  # ========== 防检测模式 (效率优化版) ==========
+  anti_detect: true
+  
+  # 随机延迟设置 (秒) - 效率优先
+  # 仅在关键操作后延迟，减少等待时间
+  random_delay:
+    min: 0.3    # 最小延迟 0.3 秒
+    max: 0.8    # 最大延迟 0.8 秒
+    enabled: true
+  
+  # ========== 定时休息设置 - 兼顾效率 ==========
+  # 每 10 分钟休息 30 秒，平衡安全与效率
+  break_interval: 600   # 600 秒 = 10 分钟
+  break_duration: 30    # 每次休息 30 秒
+  break_reminder: false # 关闭提醒，减少日志干扰
+  
+  # ========== 运行限制 ==========
+  max_runtime: 7200     # 最大运行 2 小时
+  max_loops_per_hour: 18 # 每小时最多 18 轮 (效率优先)
+  
+  # ========== 人性化设置 - 低干扰 ==========
+  # 随机暂停降低概率
+  random_pause:
+    enabled: true
+    probability: 0.05   # 5% 概率触发 (降低)
+    duration: [2, 5]    # 暂停 2-5 秒 (缩短)
+  
+  # 操作速度变化 - 小幅度
+  speed_variation:
+    enabled: true
+    base_speed: 1.0
+    variation: 0.1      # ±10% 速度波动 (降低)
+  
+  # 日志记录
+  log_actions: false    # 关闭详细日志，提升性能
