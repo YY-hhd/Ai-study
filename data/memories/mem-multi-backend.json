@@ -1,0 +1,13 @@
+{
+  "id": "mem-multi-backend",
+  "title": "多终端后端支持",
+  "content": "支持 5 种后端执行环境：本地执行、Docker 容器、SSH 远程、Modal Serverless、Cloud Run。实现任务的分发和执行，提供统一执行接口。",
+  "type": "feature",
+  "tags": [
+    "backend",
+    "docker",
+    "ssh",
+    "serverless"
+  ],
+  "createdAt": "2026-04-20T22:50:00+08:00"
+}

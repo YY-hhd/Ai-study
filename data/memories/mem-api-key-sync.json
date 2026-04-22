@@ -1,0 +1,12 @@
+{
+  "id": "mem-api-key-sync",
+  "title": "API Key 共享同步",
+  "content": "统一密钥存储格式，实现 OpenClaw 和 Hermes 之间的 API Key 双向同步。支持安全加密存储，审计日志追踪，文件权限 600 保护。",
+  "type": "feature",
+  "tags": [
+    "security",
+    "api-key",
+    "sync"
+  ],
+  "createdAt": "2026-04-20T19:30:00+08:00"
+}

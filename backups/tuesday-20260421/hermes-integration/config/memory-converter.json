@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "targetFormat": "sqlite",
+  "fts5Enabled": true,
+  "backupBeforeConvert": true
+}

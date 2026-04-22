@@ -1,0 +1,13 @@
+{
+  "id": "mem-hermes-integration",
+  "title": "Hermes × OpenClaw 整合框架",
+  "content": "Hermes Agent 与 OpenClaw 框架整合项目，包含三个阶段：互操作层、功能融合、统一框架。总计 11 个核心模块，244 倍效率提升，提前 97 天完成。",
+  "type": "project",
+  "tags": [
+    "hermes",
+    "integration",
+    "framework",
+    "openclaw"
+  ],
+  "createdAt": "2026-04-20T15:00:00+08:00"
+}

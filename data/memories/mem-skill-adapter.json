@@ -1,0 +1,12 @@
+{
+  "id": "mem-skill-adapter",
+  "title": "技能兼容层",
+  "content": "实现 OpenClaw AgentSkills 与 agentskills.io 格式的双向转换。自动添加元数据如 version、license、tags、platforms。支持批量转换和验证。",
+  "type": "feature",
+  "tags": [
+    "skill",
+    "conversion",
+    "compatibility"
+  ],
+  "createdAt": "2026-04-20T16:30:00+08:00"
+}

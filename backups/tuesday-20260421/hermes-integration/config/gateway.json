@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "platforms": {
+    "discord": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false
+    },
+    "slack": {
+      "enabled": false
+    }
+  }
+}

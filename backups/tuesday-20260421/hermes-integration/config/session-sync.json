@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "autoSync": false,
+  "exportPath": "/home/yyreal/.openclaw/workspace/projects/hermes-integration/data/session-exports"
+}

@@ -1,0 +1,11 @@
+{
+  "defaultLicense": "Apache-2.0",
+  "autoApprove": false,
+  "validateOnConvert": true,
+  "defaultPlatforms": [
+    "openclaw",
+    "claude-code",
+    "cursor",
+    "github-copilot"
+  ]
+}

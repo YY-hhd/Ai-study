@@ -1,0 +1,161 @@
+# Hermes × OpenClaw 统一配置
+# 版本：v1.0.0
+# 生成时间：2026-04-20T23:10:00+08:00
+
+# ============ 核心配置 ============
+core:
+  enabled: true
+  version: "1.0.0"
+  environment: "production"
+  logLevel: "info"
+
+# ============ 阶段一：互操作层 ============
+interoperability:
+  # 配置迁移
+  configMigration:
+    enabled: true
+    autoBackup: true
+    backupPath: "~/.openclaw/backups/config"
+    
+  # 记忆转换
+  memoryConversion:
+    enabled: true
+    targetFormat: "sqlite"
+    fts5Enabled: true
+    
+  # 技能兼容
+  skillAdaptation:
+    enabled: true
+    autoApprove: false
+    defaultLicense: "Apache-2.0"
+    
+  # API Key 共享
+  apiKeySync:
+    enabled: true
+    storagePath: "~/.openclaw/shared-keys/keys.json"
+    encryptAtRest: true
+    
+  # 会话互通
+  sessionSync:
+    enabled: false
+    autoSync: false
+
+# ============ 阶段二：功能融合 ============
+fusion:
+  # 自改进学习循环
+  learningLoop:
+    enabled: true
+    triggers:
+      onTaskComplete: true
+      onUserFeedback: true
+      heartbeatInterval: "30m"
+    strategies:
+      successThreshold: 3
+      failureThreshold: 2
+      confidenceThreshold: 0.7
+    review:
+      requireApproval: true
+      autoApproveLowRisk: true
+      
+  # 多终端后端
+  multiBackend:
+    enabled: true
+    defaultBackend: "local"
+    backends:
+      local:
+        enabled: true
+        maxConcurrent: 4
+      docker:
+        enabled: true
+        image: "node:20-alpine"
+        memory: "2g"
+        cpu: 2
+      ssh:
+        enabled: false
+        # host: remote.server.com
+        # user: deploy
+        
+  # FTS5 记忆搜索
+  fts5Search:
+    enabled: true
+    dbPath: "~/.openclaw/memory.db"
+    highlightEnabled: true
+    defaultLimit: 20
+    
+  # 统一网关
+  unifiedGateway:
+    enabled: false
+    platforms:
+      discord:
+        enabled: false
+      telegram:
+        enabled: false
+      slack:
+        enabled: false
+        
+  # 用户建模
+  userModeling:
+    enabled: true
+    trackPreferences: true
+    trackPatterns: true
+    privacyMode: false
+    
+  # RL 环境
+  rlEnvironment:
+    enabled: false
+    trainingMode: false
+
+# ============ 安全配置 ============
+security:
+  encryption:
+    enabled: true
+    algorithm: "aes-256-gcm"
+    
+  accessControl:
+    enabled: true
+    requireAuth: true
+    
+  audit:
+    enabled: true
+    retentionDays: 90
+
+# ============ 监控配置 ============
+monitoring:
+  performance:
+    enabled: true
+    metricsInterval: "1m"
+    
+  healthCheck:
+    enabled: true
+    interval: "30s"
+    
+  alerting:
+    enabled: true
+    channels:
+      - type: "log"
+        level: "error"
+
+# ============ 性能优化 ============
+performance:
+  caching:
+    enabled: true
+    ttl: 3600
+    
+  batching:
+    enabled: true
+    maxSize: 100
+    maxWait: 1000ms
+    
+  concurrency:
+    maxWorkers: 4
+    queueSize: 1000
+
+# ============ 日志配置 ============
+logging:
+  level: "info"
+  format: "json"
+  outputs:
+    - type: "file"
+      path: "~/.openclaw/logs/hermes-integration.log"
+    - type: "console"
+      enabled: true

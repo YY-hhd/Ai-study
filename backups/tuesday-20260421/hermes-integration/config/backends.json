@@ -1,0 +1,17 @@
+{
+  "default": "local",
+  "backends": {
+    "local": {
+      "type": "local",
+      "enabled": true,
+      "maxConcurrent": 4
+    },
+    "docker": {
+      "type": "docker",
+      "enabled": true,
+      "image": "node:20-alpine",
+      "memory": "2g",
+      "cpu": 2
+    }
+  }
+}

@@ -4,17 +4,23 @@
     "calendar": 1744096140,
     "weather": 1744096140,
     "notifications": 1744096140,
-    "modelHealth": 1744096583
+    "modelHealth": 1745359323
   },
-  "lastHeartbeat": "2026-04-17T22:36:00+08:00",
-  "heartbeatCount": 161,
+  "lastHeartbeat": "2026-04-22T21:30:00+08:00",
+  "heartbeatCount": 520,
+  "lastUpdate": {
+    "version": "2026.4.15",
+    "commit": "041266a",
+    "updatedAt": "2026-04-17T22:56:00+08:00",
+    "previousVersion": "2026.3.24"
+  },
   "dailyStats": {
-    "date": "2026-04-17",
-    "tasksCompleted": 2,
+    "date": "2026-04-20",
+    "tasksCompleted": 96,
     "skillsLearned": 0,
     "errorsEncountered": 0,
     "tokensUsed": 0,
-    "notes": "系统维护日（连续第 14 天无用户交互）; Heartbeat 检查 #161; 每日进化报告生成; 系统稳定运行 37+ 天"
+    "notes": "系统维护日（连续第 17 天无用户交互）; Heartbeat 检查 ~96 次; 每日进化报告生成; 系统稳定运行 41+ 天"
   },
   "tokenBudget": {
     "daily": {
@@ -22,8 +28,8 @@
       "used": 0,
       "remaining": 50000,
       "usagePercent": 0,
-      "lastReset": "2026-03-26T00:00:00Z",
-      "nextReset": "2026-03-27T00:00:00Z"
+      "lastReset": "2026-04-22T00:00:00+08:00",
+      "nextReset": "2026-04-23T00:00:00+08:00"
     },
     "monthly": {
       "limit": 1000000,
@@ -39,6 +45,24 @@
     }
   },
   "evolutionReports": [
+    {
+      "date": "2026-04-21",
+      "path": "data/evolution-reports/2026-04-21.md",
+      "generatedAt": "2026-04-21T22:00:00+08:00",
+      "skillsIdentified": 3
+    },
+    {
+      "date": "2026-04-20",
+      "path": "data/evolution-reports/2026-04-20.md",
+      "generatedAt": "2026-04-20T14:52:00+08:00",
+      "skillsIdentified": 0
+    },
+    {
+      "date": "2026-04-18",
+      "path": "data/evolution-reports/2026-04-18.md",
+      "generatedAt": "2026-04-18T22:02:00+08:00",
+      "skillsIdentified": 0
+    },
     {
       "date": "2026-04-17",
       "path": "data/evolution-reports/2026-04-17.md",
@@ -168,14 +192,14 @@
     "lastBackup": "2026-04-17T22:38:00+08:00",
     "backupCount": 21,
     "rotationDays": 7,
-    "lastCheck": "2026-04-17T22:38:00+08:00",
-    "backupTag": "backup-2026-04-17-2238",
-    "filesChanged": 6,
-    "triggerReason": "24h threshold exceeded (3 days since last backup)",
-    "nextCheck": "2026-04-18T22:38:00+08:00",
-    "hoursSinceBackup": 0,
-    "backupNeeded": false,
-    "checkReason": "Backup completed - Friday rotation backup created",
+    "lastCheck": "2026-04-22T21:04:00+08:00",
+    "backupTag": "backup-2026-04-21-1100",
+    "filesChanged": 34,
+    "triggerReason": "hourly check",
+    "nextCheck": "2026-04-22T22:04:00+08:00",
+    "hoursSinceBackup": 34.1,
+    "backupNeeded": true,
+    "checkReason": "Backup threshold exceeded (34h) - backup recommended",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
@@ -184,10 +208,10 @@
     }
   },
   "modelHealth": {
-    "lastCheck": "2026-04-14T20:00:00+08:00",
+    "lastCheck": "2026-04-20T14:54:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 42,
-    "nextCheck": "2026-04-15T02:00:00+08:00"
+    "checkCount": 62,
+    "nextCheck": "2026-04-20T20:54:00+08:00"
   }
 }

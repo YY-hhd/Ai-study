@@ -1,0 +1,16 @@
+{
+  "triggers": {
+    "onTaskComplete": true,
+    "onUserFeedback": true,
+    "heartbeatInterval": "30m"
+  },
+  "strategies": {
+    "successThreshold": 3,
+    "failureThreshold": 2,
+    "confidenceThreshold": 0.7
+  },
+  "review": {
+    "requireApproval": true,
+    "autoApproveLowRisk": true
+  }
+}

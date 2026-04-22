@@ -1,0 +1,13 @@
+{
+  "enabled": false,
+  "trainingMode": false,
+  "rewardSignals": {
+    "userSatisfaction": {
+      "min": 1,
+      "max": 5
+    },
+    "taskCompletion": 10,
+    "timeEfficiency": -0.1,
+    "errorPenalty": -5
+  }
+}
