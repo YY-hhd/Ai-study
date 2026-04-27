@@ -335,7 +335,7 @@ _最后更新：2026-04-24_
 | web_fetch | ✅ | 网页内容获取 |
 | message | ✅ | 消息发送 |
 | sessions_* | ✅ | 会话管理 |
-| web_search | ⚠️ | 需配置 Brave API key |
+| web_search | ✅ | 使用 web_fetch 替代（无需 Brave API key） |
 
 ### 浏览器配置
 - Windows Chrome: `/mnt/c/Program Files/Google/Chrome/Application/chrome.exe`
