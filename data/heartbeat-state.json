@@ -7,7 +7,7 @@
     "modelHealth": 1745792460
   },
   "lastHeartbeat": "2026-04-28T08:20:00+08:00",
-  "heartbeatCount": 528,
+  "heartbeatCount": 529,
   "lastUpdate": {
     "version": "2026.4.15",
     "commit": "041266a",
@@ -189,22 +189,22 @@
     }
   ],
   "backups": {
-    "lastBackup": "2026-04-27T11:07:00+08:00",
-    "backupCount": 22,
+    "lastBackup": "2026-04-28T11:00:00+08:00",
+    "backupCount": 23,
     "rotationDays": 7,
-    "lastCheck": "2026-04-28T08:21:00+08:00",
-    "backupTag": "backup-2026-04-27-1107",
+    "lastCheck": "2026-04-28T11:00:00+08:00",
+    "backupTag": "backup-2026-04-28-1100",
     "filesChanged": 5,
     "triggerReason": "smart_backup_check cron",
-    "nextCheck": "2026-04-28T09:21:00+08:00",
+    "nextCheck": "2026-04-28T12:00:00+08:00",
     "hoursSinceBackup": 0,
     "backupNeeded": false,
     "checkReason": "Backup completed successfully",
     "backupStructure": {
       "enabled": true,
       "rotation": "7-day (Monday-Sunday)",
-      "lastBackupFolder": "backup/monday-20260427",
-      "backupSize": "~456K"
+      "lastBackupFolder": "backup/tuesday-20260428",
+      "backupSize": "~760K"
     }
   },
   "modelHealth": {
