@@ -6,7 +6,7 @@
     "notifications": 1744096140,
     "modelHealth": 1745359323
   },
-  "lastHeartbeat": "2026-04-27T09:07:00+08:00",
+  "lastHeartbeat": "2026-04-28T08:20:00+08:00",
   "heartbeatCount": 527,
   "lastUpdate": {
     "version": "2026.4.15",
@@ -192,7 +192,7 @@
     "lastBackup": "2026-04-27T11:07:00+08:00",
     "backupCount": 22,
     "rotationDays": 7,
-    "lastCheck": "2026-04-27T11:07:00+08:00",
+    "lastCheck": "2026-04-27T16:04:00+08:00",
     "backupTag": "backup-2026-04-27-1107",
     "filesChanged": 5,
     "triggerReason": "smart_backup_check cron",
