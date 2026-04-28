@@ -4,10 +4,10 @@
     "calendar": 1744096140,
     "weather": 1744096140,
     "notifications": 1744096140,
-    "modelHealth": 1745359323
+    "modelHealth": 1745792460
   },
   "lastHeartbeat": "2026-04-28T08:20:00+08:00",
-  "heartbeatCount": 527,
+  "heartbeatCount": 528,
   "lastUpdate": {
     "version": "2026.4.15",
     "commit": "041266a",
@@ -192,11 +192,11 @@
     "lastBackup": "2026-04-27T11:07:00+08:00",
     "backupCount": 22,
     "rotationDays": 7,
-    "lastCheck": "2026-04-27T16:04:00+08:00",
+    "lastCheck": "2026-04-28T08:21:00+08:00",
     "backupTag": "backup-2026-04-27-1107",
     "filesChanged": 5,
     "triggerReason": "smart_backup_check cron",
-    "nextCheck": "2026-04-27T12:07:00+08:00",
+    "nextCheck": "2026-04-28T09:21:00+08:00",
     "hoursSinceBackup": 0,
     "backupNeeded": false,
     "checkReason": "Backup completed successfully",
@@ -212,6 +212,6 @@
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
     "checkCount": 64,
-    "nextCheck": "2026-04-27T14:53:00+08:00"
+    "nextCheck": "2026-04-28T14:21:00+08:00"
   }
 }
