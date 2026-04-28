@@ -192,7 +192,7 @@
     "lastBackup": "2026-04-28T11:00:00+08:00",
     "backupCount": 23,
     "rotationDays": 7,
-    "lastCheck": "2026-04-28T11:00:00+08:00",
+    "lastCheck": "2026-04-28T11:04:00+08:00",
     "backupTag": "backup-2026-04-28-1100",
     "filesChanged": 5,
     "triggerReason": "smart_backup_check cron",
