@@ -211,7 +211,7 @@
     "lastCheck": "2026-04-27T08:53:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 108,
+    "checkCount": 109,
     "nextCheck": "2026-04-29T16:48:00+08:00"
   }
 }
