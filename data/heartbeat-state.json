@@ -4,7 +4,7 @@
     "calendar": 1744096140,
     "weather": 1744096140,
     "notifications": 1744096140,
-    "modelHealth": 1745904058
+    "modelHealth": 1745904521
   },
   "lastHeartbeat": "2026-04-29T10:40:00+08:00",
   "heartbeatCount": 640,
@@ -211,7 +211,7 @@
     "lastCheck": "2026-04-27T08:53:00+08:00",
     "status": "healthy",
     "model": "bailian/qwen3.5-plus",
-    "checkCount": 96,
-    "nextCheck": "2026-04-29T16:40:00+08:00"
+    "checkCount": 97,
+    "nextCheck": "2026-04-29T16:48:00+08:00"
   }
 }
